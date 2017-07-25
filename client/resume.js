@@ -1,11 +1,16 @@
 const resume = () => {
-  var obj = {
-    "Intro": null,
+  return {
+    "Intro": {
+      "Stefan Generalao": {
+        props: [],
+        subtitle: "content"
+      }
+    },
 
     "Arbetslivserfarenhet": {
       "XTZ AB": {
         "Position": "Tekniker",
-        "Accomplishments": null,
+        "Accomplishments": "bababa",
         "Location": null,
         "Date": null
       },
@@ -25,8 +30,8 @@ const resume = () => {
       }
     },
 
-    "Utbildning": {
-      "Programmering": {
+    "Avslutade högskolekurser": {
+      "Programmering i Java": {
         "Lärosäte": "Högskolan i Halmstad",
         "Högskolepoäng": 7.5,
         "Date": 141119
@@ -71,112 +76,178 @@ const resume = () => {
 
     "Skickligheter": {
       "First principle thinking": {
-        "Score": 0.5,
+        "Score": {
+          "slider": true,
+          "value": 0.5
+        },
         "Details": null
       },
 
       "Artificiell intelligens, genetiska algoritmer & maskininlärning": {
-        "Score": 0.8,
+        "Score": {
+          "slider": true,
+          "value": 0.8
+        },
         "Details": "Synapse.js, Neataptic.js, TensorFlow, Scikit-learn"
       },
 
       "P5JS": {
-        "Score": 1.0,
+        "Score": {
+          "slider": true,
+          "value": 1.0
+        },
         "Details": null
       },
 
       "Java Development": {
-        "Score": 0.5,
+        "Score": {
+          "slider": true,
+          "value": 0.5
+        },
         "Details": null
       },
 
       "JavaScript": {
-        "Score": 0.9,
+        "Score": {
+          "slider": true,
+          "value": 0.9
+        },
         "Details": null
       },
 
       "Python": {
-        "Score": 0.3,
+        "Score": {
+          "slider": true,
+          "value": 0.3
+        },
         "Details": null
       },
 
       "Arduino (Mjukvara)": {
-        "Score": 1.0,
+        "Score": {
+          "slider": true,
+          "value": 1.0
+        },
         "Details": null
       },
 
       "Arduino (Hårdvara)": {
-        "Score": 1.0,
+        "Score": {
+          "slider": true,
+          "value": 1.0
+        },
         "Details": null
       },
 
       "C/C++ (Inbyggda system)": {
-        "Score": 0.7,
+        "Score": {
+          "slider": true,
+          "value": 0.7
+        },
         "Details": "ARM Cortex-m3"
       },
 
       "Raspberry PI": {
-        "Score": 0.7,
+        "Score": {
+          "slider": true,
+          "value": 0.7
+        },
         "Details": null
       },
 
       "UNIX-terminal & UNIX-based systems": {
-        "Score": 0.8,
+        "Score": {
+          "slider": true,
+          "value": 0.8
+        },
         "Details": null
       },
 
       "Penetration testing": {
-        "Score": 0.2,
+        "Score": {
+          "slider": true,
+          "value": 0.2
+        },
         "Details": null
       },
 
       "ReactJS": {
-        "Score": 0.6,
+        "Score": {
+          "slider": true,
+          "value": 0.6
+        },
         "Details": "Redux"
       },
 
       "Firebase": {
-        "Score": 0.3,
+        "Score": {
+          "slider": true,
+          "value": 0.3
+        },
         "Details": null
       },
 
       "Webpack": {
-        "Score": 0.2,
+        "Score": {
+          "slider": true,
+          "value": 0.2
+        },
         "Details": null
       },
 
       "NodeJS": {
-        "Score": 0.3,
+        "Score": {
+          "slider": true,
+          "value": 0.3
+        },
         "Details": null
       },
 
       "HTML": {
-        "Score": 0.4,
+        "Score": {
+          "slider": true,
+          "value": 0.4
+        },
         "Details": null
       },
 
       "CSS": {
-        "Score": 0.3,
+        "Score": {
+          "slider": true,
+          "value": 0.3
+        },
         "Details": null
       },
 
       "Adobe Photoshop": {
-        "Score": 0.7,
+        "Score": {
+          "slider": true,
+          "value": 0.7
+        },
         "Details": null
       },
 
       "3D-printing": {
-        "Score": 1.0,
-        "Details": "Kunskap om möjligheter, begränsningar, tekniker etc. med 3d-printing."
+        "Score": {
+          "slider": true,
+          "value": 1.0
+        },
+        "Details": "Kunskap om möjligheter, begränsningar och tekniker med 3d-printing."
       },
 
       "CAD": {
-        "Score": 0.5,
+        "Score": {
+          "slider": true,
+          "value": 0.5
+        },
         "Details": "Solidworkds, Autocad Inventor, OnShape"
       },
 
       "Simplify3D": {
-        "Score": 0.9,
+        "Score": {
+          "slider": true,
+          "value": 0.9
+        },
         "Details": "Styrprogram för 3D-skrivare."
       }
     },
@@ -217,7 +288,6 @@ const resume = () => {
       "Entreprenörsskap": {},
     }
   }
-  return obj
 }
 
 export default resume
