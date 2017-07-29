@@ -1,223 +1,383 @@
 const resume = () => {
   return {
-    "Intro": {
-      "Stefan Generalao": {
-        "props": [],
-        "subtitle": "content"
-      }
-    },
+    "Intro": [
+      [
 
-    "Arbetslivserfarenhet": {
-      "XTZ AB": [
-        "Position": "Tekniker",
-        "Location": null,
-        "Date": null
+        {"subtitle": "Namn"},
+        {"text": "Stefan Generalao"},
+
+        {"subtitle": "Om mig"},
+        {"text": "Om mig"},
+
+        {"subtitle": "Om mitt CV"},
+        {"text": "Om mitt CV"},
+
+        {"subtitle": "Kontakta mig"},
+        {"text": "Mejl: stefan.generalao@gmail.com"},
+        {"text": "Mobilnummer: 0768720573"}
+      ]
+    ],
+
+    "Arbetslivserfarenhet": [
+      [
+        {"title": "XTZ AB"},
+
+        {"subtitle": "Position"},
+        {"text": "Tekniker"},
+
+        {"subtitle": "Plats"},
+        {"text": "Halmstad"},
+
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
       ],
 
-      "Espresso House AB": {
-        "Position": null,
-        "Location": null,
-        "Date": null
-      },
+      [
+        {"title": "Espresso House AB"},
+        {"subtitle": "Position"},
+        {"text": "-"},
 
-      "Cherry Casino AB": {
-        "Position": null,
-        "Location": null,
-        "Date": null
-      }
-    },
+        {"subtitle": "Plats"},
+        {"text": "-"},
 
-    "Avslutade högskolekurser": {
-      "Programmering i Java": {
-        "Lärosäte": "Högskolan i Halmstad",
-        "Högskolepoäng": 7.5,
-        "Date": 141119
-      },
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
+      ],
 
-      "Perspektiv på elektroteknik": {
-        "Lärosäte": "Högskolan i Halmstad",
-        "Högskolepoäng": 7.5,
-        "Date": 150130
-      },
+      [
+        {"title": "Cherry Casino AB"},
+        {"subtitle": "Position"},
+        {"text": "-"},
 
-      "Digitalteknik": {
-        "Lärosäte": "Högskolan i Halmstad",
-        "Högskolepoäng": 7.5,
-        "Date": 150422
-      },
+        {"subtitle": "Plats"},
+        {"text": "-"},
 
-      "Datorteknik": {
-        "Lärosäte": "Högskolan i Halmstad",
-        "Högskolepoäng": 7.5,
-        "Date": 150616
-      },
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
+      ]
+    ],
 
-      "Algoritmer och datastrukturer": {
-        "Lärosäte": "Högskolan i Halmstad",
-        "Högskolepoäng": 7.5,
-        "Date": 151008
-      },
+    "Avslutade högskolekurser": [
+      [
+        {"title": "Programmering i Java"},
 
-      "Envariabelanalys": {
-        "Lärosäte": "Högskolan i Halmstad",
-        "Högskolepoäng": 6.0,
-        "Date": 150117
-      },
+        {"subtitle": "Lärosäte"},
+        {"text": "Högskolan i Halmstad"},
 
-      "Programmering med Java, del II": {
-        "Lärosäte": "Malmö högskola",
-        "Högskolepoäng": 7.5,
-        "Date": 160611
-      }
-    },
+        {"subtitle": "Högskolepoäng"},
+        {"text": "7.5"},
 
-    "Skickligheter": {
-      "First principle thinking": {
-        "Score": 0.5,
-        "Details": null
-      },
+        {"subtitle": "Date"},
+        {"text": "141119"}
+      ],
 
-      "Artificiell intelligens, genetiska algoritmer & maskininlärning": {
-        "Score": 0.8,
-        "Details": "Synapse.js, Neataptic.js, TensorFlow, Scikit-learn"
-      },
+      [
+        {"title": "Perspektiv på elektroteknik"},
 
-      "P5JS": {
-        "Score": 1.0,
-        "Details": null
-      },
+        {"subtitle": "Lärosäte"},
+        {"text": "Högskolan i Halmstad"},
 
-      "Java Development": {
-        "Score": 0.5,
-        "Details": null
-      },
+        {"subtitle": "Högskolepoäng"},
+        {"text": "7.5"},
 
-      "JavaScript": {
-        "Score": 0.9,
-        "Details": null
-      },
+        {"subtitle": "Date"},
+        {"text": "150130"}
+      ],
 
-      "Python": {
-        "Score": 0.3,
-        "Details": null
-      },
+      [
+        {"title": "Digitalteknik"},
 
-      "Arduino (Mjukvara)": {
-        "Score": 1.0,
-        "Details": null
-      },
+        {"subtitle": "Lärosäte"},
+        {"text": "Högskolan i Halmstad"},
 
-      "Arduino (Hårdvara)": {
-        "Score": 1.0,
-        "Details": null
-      },
+        {"subtitle": "Högskolepoäng"},
+        {"text": "7.5"},
 
-      "C/C++ (Inbyggda system)": {
-        "Score": 0.7,
-        "Details": "ARM Cortex-m3"
-      },
+        {"subtitle": "Date"},
+        {"text": "150422"}
+      ],
 
-      "Raspberry PI": {
-        "Score": 0.7,
-        "Details": null
-      },
+      [
+        {"title": "Datorteknik"},
 
-      "UNIX-terminal & UNIX-based systems": {
-        "Score": 0.8,
-        "Details": null
-      },
+        {"subtitle": "Lärosäte"},
+        {"text": "Högskolan i Halmstad"},
 
-      "Penetration testing": {
-        "Score": 0.2,
-        "Details": null
-      },
+        {"subtitle": "Högskolepoäng"},
+        {"text": "7.5"},
 
-      "ReactJS": {
-        "Score": 0.6,
-        "Details": "Redux"
-      },
+        {"subtitle": "Date"},
+        {"text": "150616"}
+      ],
 
-      "Firebase": {
-        "Score": 0.3,
-        "Details": null
-      },
+      [
+        {"title": "Algoritmer och datastrukturer"},
 
-      "Webpack": {
-        "Score": 0.2,
-        "Details": null
-      },
+        {"subtitle": "Lärosäte"},
+        {"text": "Högskolan i Halmstad"},
 
-      "NodeJS": {
-        "Score": 0.3,
-        "Details": null
-      },
+        {"subtitle": "Högskolepoäng"},
+        {"text": "7.5"},
 
-      "HTML": {
-        "Score": 0.4,
-        "Details": null
-      },
+        {"subtitle": "Date"},
+        {"text": "151008"}
+      ],
 
-      "CSS": {
-        "Score": 0.3,
-        "Details": null
-      },
+      [
+        {"title": "Envariabelanalys"},
 
-      "Adobe Photoshop": {
-        "Score": 0.7,
-        "Details": null
-      },
+        {"subtitle": "Lärosäte"},
+        {"text": "Högskolan i Halmstad"},
 
-      "3D-printing": {
-        "Score": 1.0,
-        "Details": "Kunskap om möjligheter, begränsningar och tekniker med 3d-printing."
-      },
+        {"subtitle": "Högskolepoäng"},
+        {"text": "6.0"},
 
-      "CAD": {
-        "Score": 0.5,
-        "Details": "Solidworkds, Autocad Inventor, OnShape"
-      },
+        {"subtitle": "Date"},
+        {"text": "150117"}
+      ],
 
-      "Simplify3D": {
-        "Score": 0.9,
-        "Details": "Styrprogram för 3D-skrivare."
-      }
-    },
+      [
+        {"title": "Programmering med Java, del II"},
 
-    "Github-projekt": {
-      "Genetic-path-finder": {
-        "Link": null,
-        "Description": null
-      },
+        {"subtitle": "Lärosäte"},
+        {"text": "Malmö högskola"},
 
-      "Hello-material-ui": {
-        "Link": null,
-        "Description": null
-      }
-    },
+        {"subtitle": "Högskolepoäng"},
+        {"text": "7.5"},
 
-    "Språk": {
-      "Svenska": {
-        "Nivå": "Modersmål"
-      },
+        {"subtitle": "Date"},
+        {"text": "160611"}
+      ]
+    ],
 
-      "Engelska": {
-        "Nivå": "Flytande"
-      },
+    "Skickligheter": [
+      [
+        {"title": "First principle thinking"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.5},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
 
-      "Tyska": {
-        "Nivå": "Goda kunskaper"
-      }
-    },
+      [
+        {"title": "Artificiell intelligens, genetiska algoritmer och maskininlärning"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.8},
+        {"subtitle": "Details"},
+        {"text": "Synapse.js, Neataptic.js, TensorFlow, Scikit-learn"}
+      ],
 
-    "Intressen": {
-      "Ny teknik": {},
-      "Deep neural networks": {},
-      "Genetiska algoritmer": {},
-      "Cykling": {},
-      "Socialpsykologi": {},
-      "Djur, natur och evolution": {},
-      "Entreprenörsskap": {},
-    }
+      [
+        {"title": "P5JS"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 1.0},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+
+
+      [
+        {"title": "Java Development"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.5},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+
+      [
+        {"title": "JavaScript"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.9},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "Python"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.3},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "Arduino (Mjukvara)"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 1.0},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "Arduino (Hårdvara)"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 1.0},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "C/C++ (Inbyggda system)"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.7},
+        {"subtitle": "Details"},
+        {"text": "ARM Cortex-m3"}
+      ],
+
+      [
+        {"title": "Raspberry PI"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.7},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "UNIX-terminal & UNIX-based systems"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.8},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "Penetration testing"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.2},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "ReactJS"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.6},
+        {"subtitle": "Details"},
+        {"text": "Redux"}
+      ],
+
+      [
+        {"title": "Firebase"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.3},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "Webpack"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.2},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "NodeJS"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.3},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "HTML"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.4},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "CSS"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.3},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "Adobe Photoshop"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.7},
+        {"subtitle": "Details"},
+        {"text": null}
+      ],
+
+      [
+        {"title": "3D-printing"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 1.0},
+        {"subtitle": "Details"},
+        {"text": "Kunskap om möjligheter, begränsningar och tekniker med 3d-printing."}
+      ],
+
+      [
+        {"title": "CAD"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.5},
+        {"subtitle": "Details"},
+        {"text": "Solidworkds, Autocad Inventor, OnShape"}
+      ],
+
+      [
+        {"title": "Simplify3D"},
+        {"subtitle": "Betyg"},
+        {"progressbar": 0.9},
+        {"subtitle": "Details"},
+        {"text": "Styrprogram för 3D-skrivare."}
+      ]
+    ],
+
+    "Github-projekt": [
+      [
+        {"title": "Genetic-path-finder"},
+        {"subtitle": "Description"},
+        {"text": ""},
+        {"link": "www.github.com"},
+      ],
+
+      [
+        {"title": "Hello-material-ui"},
+        {"subtitle": "Description"},
+        {"text": ""},
+        {"link": "www.github.com"},
+      ]
+    ],
+
+    "Språk": [
+      [
+        {"title": "Svenska"},
+        {"subtitle": "Nivå"},
+        {"text": "Modersmål"}
+      ],
+
+      [
+        {"title": "Engelska"},
+        {"subtitle": "Nivå"},
+        {"text": "Flytande"}
+      ],
+
+      [
+        {"title": "Tyska"},
+        {"subtitle": "Nivå"},
+        {"text": "Goda kunskaper"}
+      ]
+    ],
+
+    "Intressen": [
+      [
+        {"subtitle": "Ny teknik"},
+        {"subtitle": "Deep neural networks"},
+        {"subtitle": "Genetiska algoritmer"},
+        {"subtitle": "Cykling"},
+        {"subtitle": "Socialpsykologi"},
+        {"subtitle": "Djur, natur och evolution"},
+        {"subtitle": "Entreprenörsskap"}
+      ]
+    ]
   }
 }
 
