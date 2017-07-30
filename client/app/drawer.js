@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Drawer from 'material-ui/Drawer'
 import MenuItem from 'material-ui/MenuItem'
 import Paper from 'material-ui/Paper'
+import DrawerMenuItem from './drawerMenuItem'
 
 class customDrawer extends Component {
   constructor() {
@@ -17,19 +18,12 @@ class customDrawer extends Component {
 
   createMenuList() {
     const list = Object.keys(resume).map((key) => {
-      let zDepth = 0
-      const onMouseOverHandler = () => {zDepth = 5}
-
       return (
-        <Paper
+        <DrawerMenuItem
+          label={key}
           onTouchTap={() => this.menuItemClickHandler(key)}
-          onMouseOver={() => {onMouseOverHandler()}}
-          style={{"padding": "20px"}}
-          zDepth={zDepth}
           key={key}
-        >
-          {key}
-        </Paper>
+        />
       )
     })
 
