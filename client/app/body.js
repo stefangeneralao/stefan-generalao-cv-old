@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Card, CardTitle, CardActions, CardText} from 'material-ui/Card'
 import FlatButton from 'material-ui/FlatButton'
 import Divider from 'material-ui/Divider'
+import LinearProgress from 'material-ui/LinearProgress'
 
 class Body extends Component {
   createCards() {
@@ -55,8 +56,12 @@ class Body extends Component {
             // Progressbar
           } else if (lineKey == "progressbar") {
             return (
-              <div key={content+lineKey+lineValue+i}>
-                progressbar:{lineValue}
+              <div key={content+lineKey+lineValue+i}
+                style={{padding: "15px"}}>
+                <LinearProgress
+                  mode="determinate"
+                  value={lineValue * 100}
+                />
               </div>
             )
 
@@ -66,8 +71,9 @@ class Body extends Component {
               <div key={content+lineKey+lineValue+i}>
                 link:{lineValue}
               </div>
-            // Should never occur
             )
+
+            // Should never occur
           } else {
             console.log("unknown lineKey")
             return null
