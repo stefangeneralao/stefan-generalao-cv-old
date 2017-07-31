@@ -2,19 +2,21 @@ const resume = () => {
   return {
     "Intro": [
       [
-
-        {"subtitle": "Namn"},
-        {"text": "Stefan Generalao"},
-
         {"subtitle": "Om mig"},
-        {"text": "Om mig"},
+        {"text": "Student på Informationsarkitektprogrammet men stora delar av programmets kurser har jag redan koll på och kommer därmed ha mycket tid över till annat. För titelns skull vill jag ändå avsluta utbildningen och jag har inget emot många bollar i luften."},
+        {"text": "Avslutat högskolekurser om inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
+        {"text": "Nyfiken och gillar att lära mig nya saker. Min samarbetsvilja är hög och har lätt för att ta order men är även ansvarsfull i soloprojekt."},
+        {"text": "Fritiden spenderas på studier om maskininlärning, artificiell intelligens, genetiska algoritmer och React. Nya teknologier är vad jag brinner för!"},
 
-        {"subtitle": "Om mitt CV"},
-        {"text": "Om mitt CV"},
+        {"subtitle": "Om denna webbapplikationen"},
+        {"text": "Projektet är skrivet från grunden av mig, utan templates, med hjälp av React och Material-UI. Servern körs på en Raspberry PI som använder Webpack med hot-reload."},
+        {"text": "Vid problem, låt mig veta! Släng in en issue eller pull-request på Github."},
 
         {"subtitle": "Kontakta mig"},
-        {"text": "Mejl: stefan.generalao@gmail.com"},
-        {"text": "Mobilnummer: 0768720573"}
+        {"text": "stefan.generalao@gmail.com"},
+        {"text": "0768720573"},
+        {"text": "https://github.com/stefangeneralao"},
+        {"text": "Adress"},
       ]
     ],
 
@@ -152,17 +154,9 @@ const resume = () => {
 
     "Skickligheter": [
       [
-        {"title": "First principle thinking"},
-        {"subtitle": "Betyg"},
-        {"progressbar": 0.5},
-        {"subtitle": "Details"},
-        {"text": null}
-      ],
-
-      [
         {"title": "Artificiell intelligens, genetiska algoritmer och maskininlärning"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.8},
+        {"progressbar": 80},
         {"subtitle": "Details"},
         {"text": "Synapse.js, Neataptic.js, TensorFlow, Scikit-learn"}
       ],
@@ -170,26 +164,23 @@ const resume = () => {
       [
         {"title": "P5JS"},
         {"subtitle": "Betyg"},
-        {"progressbar": 1.0},
+        {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": null}
       ],
-
-
 
       [
         {"title": "Java Development"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.5},
+        {"progressbar": 50},
         {"subtitle": "Details"},
         {"text": null}
       ],
 
-
       [
         {"title": "JavaScript"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.9},
+        {"progressbar": 90},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -197,7 +188,7 @@ const resume = () => {
       [
         {"title": "Python"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.3},
+        {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -205,7 +196,7 @@ const resume = () => {
       [
         {"title": "Arduino (Mjukvara)"},
         {"subtitle": "Betyg"},
-        {"progressbar": 1.0},
+        {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -213,7 +204,7 @@ const resume = () => {
       [
         {"title": "Arduino (Hårdvara)"},
         {"subtitle": "Betyg"},
-        {"progressbar": 1.0},
+        {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -221,7 +212,7 @@ const resume = () => {
       [
         {"title": "C/C++ (Inbyggda system)"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.7},
+        {"progressbar": 70},
         {"subtitle": "Details"},
         {"text": "ARM Cortex-m3"}
       ],
@@ -229,7 +220,7 @@ const resume = () => {
       [
         {"title": "Raspberry PI"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.7},
+        {"progressbar": 70},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -237,7 +228,7 @@ const resume = () => {
       [
         {"title": "UNIX-terminal & UNIX-based systems"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.8},
+        {"progressbar": 80},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -245,7 +236,7 @@ const resume = () => {
       [
         {"title": "Penetration testing"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.2},
+        {"progressbar": 20},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -253,7 +244,7 @@ const resume = () => {
       [
         {"title": "ReactJS"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.6},
+        {"progressbar": 60},
         {"subtitle": "Details"},
         {"text": "Redux"}
       ],
@@ -261,7 +252,7 @@ const resume = () => {
       [
         {"title": "Firebase"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.3},
+        {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -269,7 +260,7 @@ const resume = () => {
       [
         {"title": "Webpack"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.2},
+        {"progressbar": 20},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -277,7 +268,7 @@ const resume = () => {
       [
         {"title": "NodeJS"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.3},
+        {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -285,7 +276,7 @@ const resume = () => {
       [
         {"title": "HTML"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.4},
+        {"progressbar": 40},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -293,7 +284,7 @@ const resume = () => {
       [
         {"title": "CSS"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.3},
+        {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -301,7 +292,7 @@ const resume = () => {
       [
         {"title": "Adobe Photoshop"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.7},
+        {"progressbar": 70},
         {"subtitle": "Details"},
         {"text": null}
       ],
@@ -309,7 +300,7 @@ const resume = () => {
       [
         {"title": "3D-printing"},
         {"subtitle": "Betyg"},
-        {"progressbar": 1.0},
+        {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": "Kunskap om möjligheter, begränsningar och tekniker med 3d-printing."}
       ],
@@ -317,7 +308,7 @@ const resume = () => {
       [
         {"title": "CAD"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.5},
+        {"progressbar": 50},
         {"subtitle": "Details"},
         {"text": "Solidworkds, Autocad Inventor, OnShape"}
       ],
@@ -325,7 +316,7 @@ const resume = () => {
       [
         {"title": "Simplify3D"},
         {"subtitle": "Betyg"},
-        {"progressbar": 0.9},
+        {"progressbar": 90},
         {"subtitle": "Details"},
         {"text": "Styrprogram för 3D-skrivare."}
       ]
@@ -372,9 +363,9 @@ const resume = () => {
         {"subtitle": "Ny teknik"},
         {"subtitle": "Deep neural networks"},
         {"subtitle": "Genetiska algoritmer"},
-        {"subtitle": "Cykling"},
+        {"subtitle": "Cykling och gym"},
         {"subtitle": "Socialpsykologi"},
-        {"subtitle": "Djur, natur och evolution"},
+        {"subtitle": "Natur och evolution"},
         {"subtitle": "Entreprenörsskap"}
       ]
     ]
