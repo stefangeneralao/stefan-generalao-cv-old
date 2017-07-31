@@ -23,7 +23,12 @@ class Body extends Component {
           if (lineKey == "subtitle") {
             return (
               <div key={content+lineKey+lineValue+i}>
-                <CardText style={{"paddingBottom": "0px"}}>
+                <CardText
+                  style={{
+                    paddingBottom: "0px",
+                    paddingTop: "30px"
+                  }}
+                >
                   <b>{lineValue}</b>
                 </CardText>
               </div>
@@ -32,16 +37,15 @@ class Body extends Component {
             // Text
           } else if (lineKey == "text") {
             return (
-              <div key={content+lineKey+lineValue+i}>
-                <CardText
-                  style={{
-                    "paddingTop": "5px",
-                    "marginBottom": "5px"
-                  }}
-                >
-                  {lineValue}
-                </CardText>
-              </div>
+              <CardText
+                key={content+lineKey+lineValue+i}
+                style={{
+                  "paddingTop": "6px",
+                  "paddingBottom": "6px"
+                }}
+              >
+                {lineValue}
+              </CardText>
             )
 
             // Title
@@ -60,7 +64,7 @@ class Body extends Component {
                 style={{padding: "15px"}}>
                 <LinearProgress
                   mode="determinate"
-                  value={lineValue * 100}
+                  value={lineValue}
                 />
               </div>
             )
@@ -84,9 +88,13 @@ class Body extends Component {
       }
 
       const card = (
-        <Card key={cardTitle} style={{
-          "margin": "7px"
-        }}>
+        <Card
+          key={cardTitle}
+          style={{
+            margin: "10px",
+            paddingBottom: "20px"
+          }}
+        >
           {createContent()}
         </Card>
       )
@@ -94,51 +102,6 @@ class Body extends Component {
       return card
     });
 
-    return cards
-  }
-
-  DEPRECATEDcreateCards() {
-    if (!this.props.selectedItem)
-      return null
-
-    const selectedItem = resume[this.props.selectedItem]
-
-    // Create cards depending on selected item
-    const cards = Object.keys(selectedItem).map((key) => {
-      // Inner function for creating title to the card
-      const createTitle = () => {
-        return (<CardTitle title={key}/>)
-      }
-
-      // Inner function for creating the body of the card
-      const createContent = () => {
-        // Create every subtitle
-        const content = Object.keys(selectedItem[key]).map((subKey) => {
-          return (
-            <CardText key={subKey}>
-              <b>{subKey}</b>
-              <br/> {selectedItem[key][subKey]}
-            </CardText>
-          )
-        })
-
-        return content
-      }
-
-      // Wrap title and content
-      return (
-        <div key={key}>
-          <Card style={{
-            margin: "15px"
-          }}>
-            {createTitle()}
-            <Divider/> {createContent()}
-          </Card>
-        </div>
-      )
-    })
-
-    // Return the list of cards
     return cards
   }
 
