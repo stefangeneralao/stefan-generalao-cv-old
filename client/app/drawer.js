@@ -35,6 +35,8 @@ class customDrawer extends Component {
       <Drawer
         open={this.props.open}
         width="30%"
+        docked={this.props.docked}
+        onRequestChange={() => {this.props.closeDrawer()}}
       >
         {this.createMenuList()}
       </Drawer>

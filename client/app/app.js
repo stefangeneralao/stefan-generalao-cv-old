@@ -67,6 +67,7 @@ class App extends Component {
             closeDrawer={this.closeDrawer}
             open={this.state.drawerOpen}
             selectItem={this.selectItem}
+            docked={false}
           />
 
           <Body
