@@ -12,7 +12,7 @@ class customDrawer extends Component {
   }
 
   menuItemClickHandler(clickedItem) {
-    this.props.closeDrawer()
+    if(this.props.closeDrawer) this.props.closeDrawer()
     this.props.selectItem(clickedItem)
   }
 
@@ -34,7 +34,7 @@ class customDrawer extends Component {
     return (
       <Drawer
         open={this.props.open}
-        width="100%"
+        width="30%"
       >
         {this.createMenuList()}
       </Drawer>

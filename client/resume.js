@@ -3,7 +3,7 @@ const resume = () => {
     "Intro": [
       [
         {"subtitle": "Om mig"},
-        {"text": "Student på Informationsarkitektprogrammet men stora delar av programmets kurser har jag redan koll på och kommer därmed ha mycket tid över till annat. För titelns skull vill jag ändå avsluta utbildningen och jag har inget emot många bollar i luften."},
+        {"text": "Student på Informationsarkitektprogrammet i Malmö men stora delar av programmets kurser har jag redan koll på och kommer därmed ha mycket tid över till annat. För titelns skull vill jag avsluta utbildningen och jag har inget emot många bollar i luften."},
         {"text": "Avslutat högskolekurser om inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
         {"text": "Nyfiken och gillar att lära mig nya saker. Min samarbetsvilja är hög och har lätt för att ta order men är även ansvarsfull i soloprojekt."},
         {"text": "Fritiden spenderas på studier om maskininlärning, artificiell intelligens, genetiska algoritmer och React. Nya teknologier är vad jag brinner för!"},
@@ -15,8 +15,7 @@ const resume = () => {
         {"subtitle": "Kontakta mig"},
         {"text": "stefan.generalao@gmail.com"},
         {"text": "0768720573"},
-        {"text": "https://github.com/stefangeneralao"},
-        {"text": "Adress"},
+        {"text": "github.com/stefangeneralao"},
       ]
     ],
 
@@ -61,7 +60,7 @@ const resume = () => {
 
     "Avslutade högskolekurser": [
       [
-        {"title": "Programmering i Java"},
+        {"title": "Programmering med Java"},
 
         {"subtitle": "Lärosäte"},
         {"text": "Högskolan i Halmstad"},
@@ -155,7 +154,7 @@ const resume = () => {
     "Skickligheter": [
       [
         {"title": "Artificiell intelligens, genetiska algoritmer och maskininlärning"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 80},
         {"subtitle": "Details"},
         {"text": "Synapse.js, Neataptic.js, TensorFlow, Scikit-learn"}
@@ -163,7 +162,7 @@ const resume = () => {
 
       [
         {"title": "P5JS"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": null}
@@ -171,7 +170,7 @@ const resume = () => {
 
       [
         {"title": "Java Development"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 50},
         {"subtitle": "Details"},
         {"text": null}
@@ -179,7 +178,7 @@ const resume = () => {
 
       [
         {"title": "JavaScript"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 90},
         {"subtitle": "Details"},
         {"text": null}
@@ -187,7 +186,7 @@ const resume = () => {
 
       [
         {"title": "Python"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
@@ -195,7 +194,7 @@ const resume = () => {
 
       [
         {"title": "Arduino (Mjukvara)"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": null}
@@ -203,7 +202,7 @@ const resume = () => {
 
       [
         {"title": "Arduino (Hårdvara)"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": null}
@@ -211,7 +210,7 @@ const resume = () => {
 
       [
         {"title": "C/C++ (Inbyggda system)"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 70},
         {"subtitle": "Details"},
         {"text": "ARM Cortex-m3"}
@@ -219,7 +218,7 @@ const resume = () => {
 
       [
         {"title": "Raspberry PI"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 70},
         {"subtitle": "Details"},
         {"text": null}
@@ -227,7 +226,7 @@ const resume = () => {
 
       [
         {"title": "UNIX-terminal & UNIX-based systems"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 80},
         {"subtitle": "Details"},
         {"text": null}
@@ -235,7 +234,7 @@ const resume = () => {
 
       [
         {"title": "Penetration testing"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 20},
         {"subtitle": "Details"},
         {"text": null}
@@ -243,7 +242,7 @@ const resume = () => {
 
       [
         {"title": "ReactJS"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 60},
         {"subtitle": "Details"},
         {"text": "Redux"}
@@ -251,7 +250,7 @@ const resume = () => {
 
       [
         {"title": "Firebase"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
@@ -259,7 +258,7 @@ const resume = () => {
 
       [
         {"title": "Webpack"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 20},
         {"subtitle": "Details"},
         {"text": null}
@@ -267,7 +266,7 @@ const resume = () => {
 
       [
         {"title": "NodeJS"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
@@ -275,7 +274,7 @@ const resume = () => {
 
       [
         {"title": "HTML"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 40},
         {"subtitle": "Details"},
         {"text": null}
@@ -283,7 +282,7 @@ const resume = () => {
 
       [
         {"title": "CSS"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 30},
         {"subtitle": "Details"},
         {"text": null}
@@ -291,7 +290,7 @@ const resume = () => {
 
       [
         {"title": "Adobe Photoshop"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 70},
         {"subtitle": "Details"},
         {"text": null}
@@ -299,7 +298,7 @@ const resume = () => {
 
       [
         {"title": "3D-printing"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 100},
         {"subtitle": "Details"},
         {"text": "Kunskap om möjligheter, begränsningar och tekniker med 3d-printing."}
@@ -307,7 +306,7 @@ const resume = () => {
 
       [
         {"title": "CAD"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 50},
         {"subtitle": "Details"},
         {"text": "Solidworkds, Autocad Inventor, OnShape"}
@@ -315,7 +314,7 @@ const resume = () => {
 
       [
         {"title": "Simplify3D"},
-        {"subtitle": "Betyg"},
+        {"subtitle": "Omdöme"},
         {"progressbar": 90},
         {"subtitle": "Details"},
         {"text": "Styrprogram för 3D-skrivare."}

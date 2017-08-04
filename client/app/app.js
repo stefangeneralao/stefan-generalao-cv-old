@@ -9,8 +9,8 @@ class App extends Component {
     super()
 
     this.state = {
-      drawerOpen: true,
-      selectedItem: null
+      drawerOpen: false,
+      selectedItem: "Intro"
     }
 
     this.closeDrawer = this.closeDrawer.bind(this)
@@ -31,24 +31,50 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <AppBar
-          openDrawer={this.openDrawer}
-          selectedItem={this.state.selectedItem}
-        />
+    console.log(window.innerWidth)
 
-        <Drawer
-          closeDrawer={this.closeDrawer}
-          open={this.state.drawerOpen}
-          selectItem={this.selectItem}
-        />
+    if(window.innerWidth > 750){
+      console.log("rendering for desktop")
+      return (
+        <div>
+          <AppBar
+            openDrawer={this.openDrawer}
+            selectedItem={this.state.selectedItem}
+            titleStyle={{paddingLeft: "28.5%"}}
+          />
 
-        <Body
-          selectedItem={this.state.selectedItem}
-        />
-      </div>
-    )
+          <Drawer
+            open={true}
+            selectItem={this.selectItem}
+          />
+
+          <Body
+            style={{paddingLeft: "30%"}}
+            selectedItem={this.state.selectedItem}
+          />
+        </div>
+      )
+    }else{
+      console.log("rendering for smartphone")
+      return (
+        <div>
+          <AppBar
+            openDrawer={this.openDrawer}
+            selectedItem={this.state.selectedItem}
+          />
+
+          <Drawer
+            closeDrawer={this.closeDrawer}
+            open={this.state.drawerOpen}
+            selectItem={this.selectItem}
+          />
+
+          <Body
+            selectedItem={this.state.selectedItem}
+          />
+        </div>
+      )
+    }
   }
 }
 

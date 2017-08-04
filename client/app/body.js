@@ -107,7 +107,7 @@ class Body extends Component {
 
   render() {
     return (
-      <div>
+      <div style={this.props.style}>
         {this.createCards()}
       </div>
     )
