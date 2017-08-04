@@ -40,7 +40,9 @@ class App extends Component {
           <AppBar
             openDrawer={this.openDrawer}
             selectedItem={this.state.selectedItem}
-            titleStyle={{paddingLeft: "28.5%"}}
+            style={{marginLeft: "30%"}}
+            titleStyle={{marginLeft: "3px"}}
+            showMenuIconButton={false}
           />
 
           <Drawer
