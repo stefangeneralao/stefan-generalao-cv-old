@@ -68,7 +68,7 @@ const resume = () => {
         {"subtitle": "Högskolepoäng"},
         {"text": "7.5"},
 
-        {"subtitle": "Date"},
+        {"subtitle": "Godkänt datum"},
         {"text": "141119"}
       ],
 
@@ -81,7 +81,7 @@ const resume = () => {
         {"subtitle": "Högskolepoäng"},
         {"text": "7.5"},
 
-        {"subtitle": "Date"},
+        {"subtitle": "Godkänt datum"},
         {"text": "150130"}
       ],
 
@@ -94,7 +94,7 @@ const resume = () => {
         {"subtitle": "Högskolepoäng"},
         {"text": "7.5"},
 
-        {"subtitle": "Date"},
+        {"subtitle": "Godkänt datum"},
         {"text": "150422"}
       ],
 
@@ -107,7 +107,7 @@ const resume = () => {
         {"subtitle": "Högskolepoäng"},
         {"text": "7.5"},
 
-        {"subtitle": "Date"},
+        {"subtitle": "Godkänt datum"},
         {"text": "150616"}
       ],
 
@@ -120,7 +120,7 @@ const resume = () => {
         {"subtitle": "Högskolepoäng"},
         {"text": "7.5"},
 
-        {"subtitle": "Date"},
+        {"subtitle": "Godkänt datum"},
         {"text": "151008"}
       ],
 
@@ -133,7 +133,7 @@ const resume = () => {
         {"subtitle": "Högskolepoäng"},
         {"text": "6.0"},
 
-        {"subtitle": "Date"},
+        {"subtitle": "Godkänt datum"},
         {"text": "150117"}
       ],
 
@@ -146,7 +146,7 @@ const resume = () => {
         {"subtitle": "Högskolepoäng"},
         {"text": "7.5"},
 
-        {"subtitle": "Date"},
+        {"subtitle": "Godkänt datum"},
         {"text": "160611"}
       ]
     ],
