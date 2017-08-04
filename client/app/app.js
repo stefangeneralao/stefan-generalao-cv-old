@@ -16,6 +16,19 @@ class App extends Component {
     this.closeDrawer = this.closeDrawer.bind(this)
     this.openDrawer = this.openDrawer.bind(this)
     this.selectItem = this.selectItem.bind(this)
+    this.handleResize = this.handleResize.bind(this)
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize)
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('resize', this.handleResize)
+  }
+
+  handleResize() {
+    this.forceUpdate()
   }
 
   closeDrawer() {
@@ -40,8 +53,8 @@ class App extends Component {
           <AppBar
             openDrawer={this.openDrawer}
             selectedItem={this.state.selectedItem}
-            style={{marginLeft: "30%"}}
-            titleStyle={{marginLeft: "3px"}}
+            style={{paddingLeft: "30%"}}
+            titleStyle={{paddingLeft: "25px"}}
             showMenuIconButton={false}
           />
 
