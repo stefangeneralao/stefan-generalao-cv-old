@@ -53,7 +53,11 @@ class App extends Component {
           <AppBar
             openDrawer={this.openDrawer}
             selectedItem={this.state.selectedItem}
-            style={{paddingLeft: "30%"}}
+            style={{
+              paddingLeft: "30%",
+              position: "fixed",
+              top: 0
+            }}
             titleStyle={{paddingLeft: "25px"}}
             showMenuIconButton={false}
           />
@@ -61,10 +65,14 @@ class App extends Component {
           <Drawer
             open={true}
             selectItem={this.selectItem}
+            width={"30%"}
           />
 
           <Body
-            style={{paddingLeft: "30%"}}
+            style={{
+              paddingLeft: "30%",
+              paddingTop: "60px"
+            }}
             selectedItem={this.state.selectedItem}
           />
         </div>
@@ -76,6 +84,7 @@ class App extends Component {
           <AppBar
             openDrawer={this.openDrawer}
             selectedItem={this.state.selectedItem}
+            style={{position: "fixed", top: 0}}
           />
 
           <Drawer
@@ -86,6 +95,9 @@ class App extends Component {
           />
 
           <Body
+            style={{
+              paddingTop: "60px"
+            }}
             selectedItem={this.state.selectedItem}
           />
         </div>
