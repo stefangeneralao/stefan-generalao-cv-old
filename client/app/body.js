@@ -60,8 +60,12 @@ class Body extends Component {
             // Progressbar
           } else if (lineKey == "progressbar") {
             return (
-              <div key={content+lineKey+lineValue+i}
-                style={{padding: "15px"}}>
+              <div
+                key={content+lineKey+lineValue+i}
+                style={{
+                  padding: "15px",
+                  maxWidth: "400px"
+                }}>
                 <LinearProgress
                   mode="determinate"
                   value={lineValue}
