@@ -34,7 +34,7 @@ class customDrawer extends Component {
     return (
       <Drawer
         open={this.props.open}
-        width="30%"
+        width={this.props.width}
         docked={this.props.docked}
         onRequestChange={() => {this.props.closeDrawer()}}
       >

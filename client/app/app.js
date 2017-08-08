@@ -46,7 +46,7 @@ class App extends Component {
   render() {
     console.log(window.innerWidth)
 
-    if(window.innerWidth > 750){
+    if(window.innerWidth > 735){
       console.log("rendering for desktop")
       return (
         <div>

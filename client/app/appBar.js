@@ -11,6 +11,7 @@ class customAppBar extends Component {
         titleStyle={this.props.titleStyle}
         style={this.props.style}
         showMenuIconButton={this.props.showMenuIconButton}
+        zDepth={0}
       />
     )
   }
