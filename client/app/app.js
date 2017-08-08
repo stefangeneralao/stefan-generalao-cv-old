@@ -23,7 +23,7 @@ class App extends Component {
     window.addEventListener('resize', this.handleResize)
   }
 
-  componentWillUnmount(){
+  componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize)
   }
 
@@ -44,62 +44,38 @@ class App extends Component {
   }
 
   render() {
-    console.log(window.innerWidth)
-
-    if(window.innerWidth > 735){
-      console.log("rendering for desktop")
+    if (window.innerWidth > 735) {
       return (
         <div>
-          <AppBar
-            openDrawer={this.openDrawer}
-            selectedItem={this.state.selectedItem}
-            style={{
-              paddingLeft: "30%",
-              position: "fixed",
-              top: 0
-            }}
-            titleStyle={{paddingLeft: "25px"}}
-            showMenuIconButton={false}
-          />
+          <AppBar openDrawer={this.openDrawer} selectedItem={this.state.selectedItem} style={{
+            paddingLeft: "30%",
+            position: "fixed",
+            top: 0
+          }} titleStyle={{
+            paddingLeft: "25px"
+          }} showMenuIconButton={false}/>
 
-          <Drawer
-            open={true}
-            selectItem={this.selectItem}
-            width={"30%"}
-          />
+          <Drawer open={true} selectItem={this.selectItem} width={"30%"}/>
 
-          <Body
-            style={{
-              paddingLeft: "30%",
-              paddingTop: "60px"
-            }}
-            selectedItem={this.state.selectedItem}
-          />
+          <Body style={{
+            paddingLeft: "30%",
+            paddingTop: "60px"
+          }} selectedItem={this.state.selectedItem}/>
         </div>
       )
-    }else{
-      console.log("rendering for smartphone")
+    } else {
       return (
         <div>
-          <AppBar
-            openDrawer={this.openDrawer}
-            selectedItem={this.state.selectedItem}
-            style={{position: "fixed", top: 0}}
-          />
+          <AppBar openDrawer={this.openDrawer} selectedItem={this.state.selectedItem} style={{
+            position: "fixed",
+            top: 0
+          }}/>
 
-          <Drawer
-            closeDrawer={this.closeDrawer}
-            open={this.state.drawerOpen}
-            selectItem={this.selectItem}
-            docked={false}
-          />
+          <Drawer closeDrawer={this.closeDrawer} open={this.state.drawerOpen} selectItem={this.selectItem} docked={false}/>
 
-          <Body
-            style={{
-              paddingTop: "60px"
-            }}
-            selectedItem={this.state.selectedItem}
-          />
+          <Body style={{
+            paddingTop: "60px"
+          }} selectedItem={this.state.selectedItem}/>
         </div>
       )
     }
