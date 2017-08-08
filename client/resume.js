@@ -21,6 +21,11 @@ const resume = () => {
 
     "Arbetslivserfarenhet": [
       [
+        {"subtitle": "Sammanfattning"},
+        {"text": "Åtskilliga timmar i servicebranchen varav mitt första jobb i mina föräldrars restaurang gav mig ett utmärkt helhetsperspektiv av livet som entreprenör och värdet av bra lagarbete."}
+      ],
+
+      [
         {"title": "XTZ AB"},
 
         {"subtitle": "Position"},
@@ -36,10 +41,10 @@ const resume = () => {
       [
         {"title": "Espresso House AB"},
         {"subtitle": "Position"},
-        {"text": "-"},
+        {"text": "Barista"},
 
         {"subtitle": "Plats"},
-        {"text": "-"},
+        {"text": "Malmö, Ystad, Trelleborg, Lund"},
 
         {"subtitle": "Period"},
         {"text": "xx-xx-xx till xx-xx-xx"}
@@ -48,10 +53,22 @@ const resume = () => {
       [
         {"title": "Cherry Casino AB"},
         {"subtitle": "Position"},
-        {"text": "-"},
+        {"text": "Croupier"},
 
         {"subtitle": "Plats"},
-        {"text": "-"},
+        {"text": "Malmö, Lund"},
+
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
+      ],
+
+      [
+        {"title": "Mossbystrands kiosk"},
+        {"subtitle": "Position"},
+        {"text": "Arbetsledare, kassabiträde, kallskänka"},
+
+        {"subtitle": "Plats"},
+        {"text": "Mossby"},
 
         {"subtitle": "Period"},
         {"text": "xx-xx-xx till xx-xx-xx"}
@@ -59,6 +76,11 @@ const resume = () => {
     ],
 
     "Avslutade högskolekurser": [
+      [
+        {"subtitle": "Sammanfattning"},
+        {"text": "Kurser på totalt 50,5 högskolepoäng. Många av kurserna är tagna från dataingenjörsprogrammet och omfattar en hel del inom inbyggda system."}
+      ],
+
       [
         {"title": "Programmering med Java"},
 
@@ -153,175 +175,210 @@ const resume = () => {
 
     "Skickligheter": [
       [
-        {"title": "Artificiell intelligens, genetiska algoritmer och maskininlärning"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Sammanfattning"},
+        {"text": "Mina skickligheter består av diverse programmerings-och skriptspråk, JavaScript-bibliotek med mera. Mycket tid har spenderats med Arduino och tillhörande hårdvara. Jag har även ett brinnande intresse för maskininlärning."}
+      ],
+
+      [
+        {"title": "Översikt på ämnet maskininlärning"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 80},
-        {"subtitle": "Details"},
-        {"text": "Synapse.js, Neataptic.js, TensorFlow, Scikit-learn"}
+        {"subtitle": "Detaljer"},
+        {"text": "God kunskap om vilka möjligheter samt begränsningar som maskininlärning, AI och genetiska algoritmer kan medföra."}
       ],
 
       [
-        {"title": "P5JS"},
-        {"subtitle": "Omdöme"},
+        {"title": "Synapse.js"},
+        {"subtitle": "Kunnithet"},
+        {"progressbar": 60},
+        {"subtitle": "Detaljer"},
+        {"text": "JavaScript-bibliotek för att bygga, träna och aktivera neuronnät."}
+      ],
+
+      [
+        {"title": "Neataptic.js"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 30},
+        {"subtitle": "Detaljer"},
+        {"text": "JavaScript-bibliotek för att utveckla NEAT-neuronnät"}
+      ],
+
+      [
+        {"title": "TensorFlow"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 30},
+        {"subtitle": "Detaljer"},
+        {"text": "I Googles open source-projekt TensorFlow har jag, tillsammans med Python, gjort neuronnätverkets motsvarighet till Hello World."}
+      ],
+
+      [
+        {"title": "P5.js"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 100},
-        {"subtitle": "Details"},
-        {"text": null}
+        {"subtitle": "Detaljer"},
+        {"text": "P5 är ett JavaScript-bibliotek för att snabbt rendera 2D-grafik. Enkelheten i biblioteket har gjort det till ett av mina favoritbibliotek."}
       ],
 
       [
-        {"title": "Java Development"},
-        {"subtitle": "Omdöme"},
+        {"title": "Java"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 50},
-        {"subtitle": "Details"},
-        {"text": null}
+        {"subtitle": "Detaljer"},
+        {"text": "Jag har 22.5 högskolepoäng i kurser med programmering i Java. I kurserna byggde jag diverse datastrukturer, algoritmer och GUI."}
       ],
 
       [
         {"title": "JavaScript"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 90},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "Python"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 30},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "Arduino (Mjukvara)"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 100},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "Arduino (Hårdvara)"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 100},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "C/C++ (Inbyggda system)"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 70},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": "ARM Cortex-m3"}
       ],
 
       [
         {"title": "Raspberry PI"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 70},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
-        {"title": "UNIX-terminal & UNIX-based systems"},
-        {"subtitle": "Omdöme"},
+        {"title": "UNIX-system, BASH etc."},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 80},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "Penetration testing"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 20},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "ReactJS"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 60},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": "Redux"}
       ],
 
       [
         {"title": "Firebase"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 30},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "Webpack"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 20},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "NodeJS"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 30},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "HTML"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 40},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "CSS"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 30},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "Adobe Photoshop"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 70},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": null}
       ],
 
       [
         {"title": "3D-printing"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 100},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": "Kunskap om möjligheter, begränsningar och tekniker med 3d-printing."}
       ],
 
       [
         {"title": "CAD"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 50},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": "Solidworkds, Autocad Inventor, OnShape"}
       ],
 
       [
         {"title": "Simplify3D"},
-        {"subtitle": "Omdöme"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 90},
-        {"subtitle": "Details"},
+        {"subtitle": "Detaljer"},
         {"text": "Styrprogram för 3D-skrivare."}
       ]
     ],
 
     "Github-projekt": [
+      [
+        {"subtitle": "Sammanfattning"},
+        {"text": ""},
+        {"link": "www.github.com/stefangeneralao"}
+      ],
+
       [
         {"title": "Genetic-path-finder"},
         {"subtitle": "Description"},
