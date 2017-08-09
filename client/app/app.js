@@ -44,6 +44,7 @@ class App extends Component {
   }
 
   render() {
+    // Render for desktop
     if (window.innerWidth > 735) {
       return (
         <div>
@@ -52,7 +53,8 @@ class App extends Component {
             position: "fixed",
             top: 0
           }} titleStyle={{
-            paddingLeft: "25px"
+            paddingLeft: "25px",
+            fontSize: 22
           }} showMenuIconButton={false}/>
 
           <Drawer open={true} selectSection={this.selectSection} width={"30%"}/>
@@ -63,6 +65,8 @@ class App extends Component {
           }} selectedSection={this.state.selectedSection}/>
         </div>
       )
+
+    // Render for smartphone
     } else {
       return (
         <div>

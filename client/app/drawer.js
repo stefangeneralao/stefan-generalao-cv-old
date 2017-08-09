@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import Drawer from 'material-ui/Drawer'
+import MuiDrawer from 'material-ui/Drawer'
 import MenuItem from 'material-ui/MenuItem'
 import Paper from 'material-ui/Paper'
 import DrawerMenuItem from './drawerMenuItem'
 
-class customDrawer extends Component {
+class Drawer extends Component {
   constructor() {
     super()
 
@@ -12,7 +12,10 @@ class customDrawer extends Component {
   }
 
   menuItemClickHandler(clickedItem) {
-    if(this.props.closeDrawer) this.props.closeDrawer()
+    if(this.props.closeDrawer) {
+      this.props.closeDrawer()
+    }
+
     this.props.selectSection(clickedItem)
   }
 
@@ -32,16 +35,16 @@ class customDrawer extends Component {
 
   render() {
     return (
-      <Drawer
+      <MuiDrawer
         open={this.props.open}
         width={this.props.width}
         docked={this.props.docked}
         onRequestChange={() => {this.props.closeDrawer()}}
       >
         {this.createMenuList()}
-      </Drawer>
+      </MuiDrawer>
     )
   }
 }
 
-export default customDrawer
+export default Drawer

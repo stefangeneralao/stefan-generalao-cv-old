@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import AppBar from 'material-ui/AppBar'
+import MuiAppBar from 'material-ui/AppBar'
 
-class customAppBar extends Component {
+class AppBar extends Component {
   render() {
     return (
-      <AppBar
+      <MuiAppBar
         onLeftIconButtonTouchTap={this.props.openDrawer}
         onTitleTouchTap={this.props.openDrawer}
         title={this.props.selectedSection}
@@ -17,4 +17,4 @@ class customAppBar extends Component {
   }
 }
 
-export default customAppBar
+export default AppBar
