@@ -15,8 +15,8 @@ class DrawerMenuItem extends Component {
 
   onMouseOverHandler() {
     this.setState({
-      zDepth: 2,
-      backgroundColor: fade("#fafafa", 1.0)
+      zDepth: 1,
+      backgroundColor: fade("#f2f2f2", 1.0)
     })
   }
 
@@ -29,17 +29,15 @@ class DrawerMenuItem extends Component {
 
   render() {
     return (
-      <Paper
-        onTouchTap={this.props.onTouchTap}
-        style={{
-          "padding": "20px",
-          "background": this.state.backgroundColor
-        }}
-        zDepth={this.state.zDepth}
-        onMouseOver={() => {this.onMouseOverHandler()}}
-        onMouseOut={() => {this.onMouseOutHandler()}}
-      >
-        {this.props.label}
+      <Paper onTouchTap={this.props.onTouchTap} style={{
+        "padding": "20px",
+        "background": this.state.backgroundColor
+      }} zDepth={this.state.zDepth} onMouseOver={() => {
+        this.onMouseOverHandler()
+      }} onMouseOut={() => {
+        this.onMouseOutHandler()
+      }}>
+        <text style={{fontSize: 14, fontWeight: "bold"}}>{this.props.label}</text>
       </Paper>
     )
   }
