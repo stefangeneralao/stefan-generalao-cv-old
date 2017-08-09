@@ -189,7 +189,7 @@ const resume = () => {
 
       [
         {"title": "Synapse.js"},
-        {"subtitle": "Kunnithet"},
+        {"subtitle": "Kunnighet"},
         {"progressbar": 60},
         {"subtitle": "Detaljer"},
         {"text": "JavaScript-bibliotek för att bygga, träna och aktivera neuronnät."}

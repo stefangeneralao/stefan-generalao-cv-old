@@ -10,12 +10,12 @@ class App extends Component {
 
     this.state = {
       drawerOpen: false,
-      selectedItem: "Intro"
+      selectedSection: "Intro"
     }
 
     this.closeDrawer = this.closeDrawer.bind(this)
     this.openDrawer = this.openDrawer.bind(this)
-    this.selectItem = this.selectItem.bind(this)
+    this.selectSection = this.selectSection.bind(this)
     this.handleResize = this.handleResize.bind(this)
   }
 
@@ -39,15 +39,15 @@ class App extends Component {
     this.setState({drawerOpen: true})
   }
 
-  selectItem(item) {
-    this.setState({selectedItem: item})
+  selectSection(item) {
+    this.setState({selectedSection: item})
   }
 
   render() {
     if (window.innerWidth > 735) {
       return (
         <div>
-          <AppBar openDrawer={this.openDrawer} selectedItem={this.state.selectedItem} style={{
+          <AppBar openDrawer={this.openDrawer} selectedSection={this.state.selectedSection} style={{
             paddingLeft: "30%",
             position: "fixed",
             top: 0
@@ -55,27 +55,27 @@ class App extends Component {
             paddingLeft: "25px"
           }} showMenuIconButton={false}/>
 
-          <Drawer open={true} selectItem={this.selectItem} width={"30%"}/>
+          <Drawer open={true} selectSection={this.selectSection} width={"30%"}/>
 
           <Body style={{
             paddingLeft: "30%",
             paddingTop: "60px"
-          }} selectedItem={this.state.selectedItem}/>
+          }} selectedSection={this.state.selectedSection}/>
         </div>
       )
     } else {
       return (
         <div>
-          <AppBar openDrawer={this.openDrawer} selectedItem={this.state.selectedItem} style={{
+          <AppBar openDrawer={this.openDrawer} selectedSection={this.state.selectedSection} style={{
             position: "fixed",
             top: 0
           }}/>
 
-          <Drawer closeDrawer={this.closeDrawer} open={this.state.drawerOpen} selectItem={this.selectItem} docked={false}/>
+          <Drawer closeDrawer={this.closeDrawer} open={this.state.drawerOpen} selectSection={this.selectSection} docked={false}/>
 
           <Body style={{
             paddingTop: "60px"
-          }} selectedItem={this.state.selectedItem}/>
+          }} selectedSection={this.state.selectedSection}/>
         </div>
       )
     }

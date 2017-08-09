@@ -13,7 +13,7 @@ class customDrawer extends Component {
 
   menuItemClickHandler(clickedItem) {
     if(this.props.closeDrawer) this.props.closeDrawer()
-    this.props.selectItem(clickedItem)
+    this.props.selectSection(clickedItem)
   }
 
   createMenuList() {

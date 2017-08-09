@@ -7,7 +7,7 @@ class customAppBar extends Component {
       <AppBar
         onLeftIconButtonTouchTap={this.props.openDrawer}
         onTitleTouchTap={this.props.openDrawer}
-        title={this.props.selectedItem}
+        title={this.props.selectedSection}
         titleStyle={this.props.titleStyle}
         style={this.props.style}
         showMenuIconButton={this.props.showMenuIconButton}

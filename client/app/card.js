@@ -4,7 +4,7 @@ import Divider from 'material-ui/Divider'
 import LinearProgress from 'material-ui/LinearProgress'
 
 const parseContent = (contentArray) => {
-  return contentArray.map((content, i) => {
+  const content = contentArray.map((content, index) => {
     const lineCommand = Object.keys(content)[0]
     const lineValue = content[lineCommand]
 
@@ -12,7 +12,7 @@ const parseContent = (contentArray) => {
     switch (lineCommand) {
       case "subtitle":
         return (
-          <div key={i}>
+          <div key={index}>
             <CardText style={{
               paddingBottom: "0px",
               paddingTop: "30px"
@@ -24,7 +24,7 @@ const parseContent = (contentArray) => {
 
       case "text":
         return (
-          <div key={i}>
+          <div key={index}>
             <CardText style={{
               "paddingTop": "6px",
               "paddingBottom": "6px"
@@ -36,7 +36,7 @@ const parseContent = (contentArray) => {
 
       case "title":
         return (
-          <div key={i}>
+          <div key={index}>
             <CardTitle title={lineValue}/>
             <Divider/>
           </div>
@@ -44,7 +44,7 @@ const parseContent = (contentArray) => {
 
       case "progressbar":
         return (
-          <div key={i} style={{
+          <div key={index} style={{
             padding: "15px",
             maxWidth: "400px"
           }}>
@@ -55,16 +55,18 @@ const parseContent = (contentArray) => {
       case "link":
         console.warn("Command \"link\" not ready")
         return (
-          <div key={i}>
+          <div key={index}>
             link:{lineValue}
           </div>
         )
 
       default:
         console.warn("Unknown lineCommand: " + lineCommand)
-        return (<div key={i}/>)
+        return (<div key={index}/>)
     }
   })
+
+  return content
 }
 
 class CustomCard extends Component {
