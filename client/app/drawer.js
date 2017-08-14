@@ -24,7 +24,7 @@ class Drawer extends Component {
       return (
         <DrawerMenuItem
           label={section}
-          onTouchTap={() => this.menuItemClickHandler(key)}
+          onTouchTap={() => this.menuItemClickHandler(section)}
           key={section}
         />
       )
