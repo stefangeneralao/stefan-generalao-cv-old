@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Paper from 'material-ui/Paper'
 import Divider from 'material-ui/Divider'
 import {fade} from 'material-ui/utils/colorManipulator'
+import {ListItem} from 'material-ui/List'
 
 class DrawerMenuItem extends Component {
   constructor(props) {
@@ -13,32 +14,13 @@ class DrawerMenuItem extends Component {
     }
   }
 
-  onMouseOverHandler() {
-    this.setState({
-      zDepth: 1,
-      backgroundColor: fade("#f2f2f2", 1.0)
-    })
-  }
-
-  onMouseOutHandler() {
-    this.setState({
-      zDepth: 0,
-      backgroundColor: fade("#fff", 0.0)
-    })
-  }
-
   render() {
     return (
-      <Paper onTouchTap={this.props.onTouchTap} style={{
-        "padding": "20px",
+      <ListItem onTouchTap={this.props.onTouchTap} style={{
         "background": this.state.backgroundColor
-      }} zDepth={this.state.zDepth} onMouseOver={() => {
-        this.onMouseOverHandler()
-      }} onMouseOut={() => {
-        this.onMouseOutHandler()
       }}>
-        <text style={{fontSize: 14, fontWeight: "bold"}}>{this.props.label}</text>
-      </Paper>
+        <text style={{fontSize: 12, fontWeight: "bold"}}>{this.props.label}</text>
+      </ListItem>
     )
   }
 }
