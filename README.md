@@ -1,4 +1,4 @@
-# stefan-generalao-cv
+# Stefan Generalao CV
 ## Installation
 Node and npm must be installed.
 Install package with command "npm install".
