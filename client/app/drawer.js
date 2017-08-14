@@ -20,12 +20,12 @@ class Drawer extends Component {
   }
 
   createMenuList() {
-    const list = Object.keys(resume).map((key) => {
+    const list = Object.keys(resume).map((section) => {
       return (
         <DrawerMenuItem
-          label={key}
+          label={section}
           onTouchTap={() => this.menuItemClickHandler(key)}
-          key={key}
+          key={section}
         />
       )
     })
