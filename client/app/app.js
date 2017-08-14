@@ -54,7 +54,7 @@ class App extends Component {
             top: 0
           }} titleStyle={{
             paddingLeft: "25px",
-            fontSize: 22
+            fontSize: 18
           }} showMenuIconButton={false}/>
 
           <Drawer open={true} selectSection={this.selectSection} width={"30%"}/>
@@ -73,7 +73,10 @@ class App extends Component {
           <AppBar openDrawer={this.openDrawer} selectedSection={this.state.selectedSection} style={{
             position: "fixed",
             top: 0
-          }}/>
+          }} titleStyle={{
+            fontSize: 18
+          }}
+          />
 
           <Drawer closeDrawer={this.closeDrawer} open={this.state.drawerOpen} selectSection={this.selectSection} docked={false}/>
 
