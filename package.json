@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --port 3000 --host 0.0.0.0"
+    "start": "webpack-dev-server --port 80 --host 0.0.0.0"
   },
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
