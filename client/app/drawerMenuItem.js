@@ -19,7 +19,7 @@ class DrawerMenuItem extends Component {
       <ListItem onTouchTap={this.props.onTouchTap} style={{
         "background": this.state.backgroundColor
       }}>
-        <text style={{fontSize: 12, fontWeight: "bold"}}>{this.props.label}</text>
+        <span style={{fontSize: "12px", fontWeight: "bold"}}>{this.props.label}</span>
       </ListItem>
     )
   }
