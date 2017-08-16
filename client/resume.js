@@ -2,9 +2,10 @@ const resume = () => {
   return {
     "Intro": [
       [
+        {"title": "Stefan Generalao - For your information"},
         {"subtitle": "Om mig"},
         {"text": "Student på Informationsarkitektprogrammet i Malmö men stora delar av programmets kurser har jag redan koll på och kommer därmed ha mycket tid över till annat. För titelns skull vill jag avsluta utbildningen och jag har inget emot många bollar i luften."},
-        {"text": "Avslutat högskolekurser om inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
+        {"text": "Avslutat högskolekurser huvudsakligen inom inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
         {"text": "Nyfiken och gillar att lära mig nya saker. Min samarbetsvilja är hög och har lätt för att ta order men är även ansvarsfull i soloprojekt."},
         {"text": "Fritiden spenderas på studier om maskininlärning, artificiell intelligens, genetiska algoritmer och React. Nya teknologier är vad jag brinner för!"},
 
@@ -16,62 +17,6 @@ const resume = () => {
         {"text": "stefan.generalao@gmail.com"},
         {"text": "0768720573"},
         {"text": "github.com/stefangeneralao"},
-      ]
-    ],
-
-    "Arbetslivserfarenhet": [
-      [
-        {"subtitle": "Sammanfattning"},
-        {"text": "Åtskilliga timmar i servicebranchen varav mitt första jobb i mina föräldrars restaurang gav mig ett utmärkt helhetsperspektiv av livet som entreprenör och värdet av bra lagarbete."}
-      ],
-
-      [
-        {"title": "XTZ AB"},
-
-        {"subtitle": "Position"},
-        {"text": "Tekniker"},
-
-        {"subtitle": "Plats"},
-        {"text": "Halmstad"},
-
-        {"subtitle": "Period"},
-        {"text": "xx-xx-xx till xx-xx-xx"}
-      ],
-
-      [
-        {"title": "Espresso House AB"},
-        {"subtitle": "Position"},
-        {"text": "Barista"},
-
-        {"subtitle": "Plats"},
-        {"text": "Malmö, Ystad, Trelleborg, Lund"},
-
-        {"subtitle": "Period"},
-        {"text": "xx-xx-xx till xx-xx-xx"}
-      ],
-
-      [
-        {"title": "Cherry Casino AB"},
-        {"subtitle": "Position"},
-        {"text": "Croupier"},
-
-        {"subtitle": "Plats"},
-        {"text": "Malmö, Lund"},
-
-        {"subtitle": "Period"},
-        {"text": "xx-xx-xx till xx-xx-xx"}
-      ],
-
-      [
-        {"title": "Mossbystrands kiosk"},
-        {"subtitle": "Position"},
-        {"text": "Arbetsledare, kassabiträde, kallskänka"},
-
-        {"subtitle": "Plats"},
-        {"text": "Mossby"},
-
-        {"subtitle": "Period"},
-        {"text": "xx-xx-xx till xx-xx-xx"}
       ]
     ],
 
@@ -198,7 +143,7 @@ const resume = () => {
       [
         {"title": "Neataptic.js"},
         {"subtitle": "Kunnighet"},
-        {"progressbar": 30},
+        {"progressbar": 10},
         {"subtitle": "Detaljer"},
         {"text": "JavaScript-bibliotek för att utveckla NEAT-neuronnät"}
       ],
@@ -206,9 +151,41 @@ const resume = () => {
       [
         {"title": "TensorFlow"},
         {"subtitle": "Kunnighet"},
-        {"progressbar": 30},
+        {"progressbar": 10},
         {"subtitle": "Detaljer"},
         {"text": "I Googles open source-projekt TensorFlow har jag, tillsammans med Python, gjort neuronnätverkets motsvarighet till Hello World."}
+      ],
+
+      [
+        {"title": "ReactJS"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 50},
+        {"subtitle": "Detaljer"},
+        {"text": "På grund av mitt intresse i ReactJS växer mina kunskaper snabbt! Idag är jag bekväm i React-komponentens livscykel, state, props och Redux. Har även kopplat React-applikationer med Firebase."}
+      ],
+
+      [
+        {"title": "Webpack"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 20},
+        {"subtitle": "Detaljer"},
+        {"text": "Tillräckliga kunskaper för att konfigurera www.stefangeneralao.fyi samt få igång hot-reload."}
+      ],
+
+      [
+        {"title": "NodeJS"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 10},
+        {"subtitle": "Detaljer"},
+        {"text": "Använder npm för bibliotek i många av mina projekt. Har även lyckats att konfigurera servrar i NodeJS."}
+      ],
+
+      [
+        {"title": "HTML & CSS"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 30},
+        {"subtitle": "Detaljer"},
+        {"text": "Få avancerade kunskaper i HTML & CSS men tillräckliga för att få upp fungerande hemsidor."}
       ],
 
       [
@@ -220,51 +197,43 @@ const resume = () => {
       ],
 
       [
+        {"title": "JavaScript"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 70},
+        {"subtitle": "Detaljer"},
+        {"text": "JavaScript växte snabbt till att bli mitt favoritspråk."}
+      ],
+
+      [
         {"title": "Java"},
         {"subtitle": "Kunnighet"},
         {"progressbar": 50},
         {"subtitle": "Detaljer"},
-        {"text": "Jag har 22.5 högskolepoäng i kurser med programmering i Java. I kurserna byggde jag diverse datastrukturer, algoritmer och GUI."}
-      ],
-
-      [
-        {"title": "JavaScript"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 90},
-        {"subtitle": "Detaljer"},
-        {"text": null}
+        {"text": "Totalt 22.5 högskolepoäng i kurser med programmering i Java. I kurserna byggde jag diverse datastrukturer, algoritmer och GUI."}
       ],
 
       [
         {"title": "Python"},
         {"subtitle": "Kunnighet"},
-        {"progressbar": 30},
+        {"progressbar": 20},
         {"subtitle": "Detaljer"},
-        {"text": null}
+        {"text": "Med hjälp av biblioteket TensorFlow byggde jag ett neuronnätverk i Python."}
       ],
 
       [
-        {"title": "Arduino (Mjukvara)"},
+        {"title": "Arduino - Mjukvara och hårdvara"},
         {"subtitle": "Kunnighet"},
         {"progressbar": 100},
         {"subtitle": "Detaljer"},
-        {"text": null}
-      ],
-
-      [
-        {"title": "Arduino (Hårdvara)"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 100},
-        {"subtitle": "Detaljer"},
-        {"text": null}
+        {"text": "Möjligheterna i Arduino är ändlösa! Många projekt har gjorts i Arduino och många fler komma skall."}
       ],
 
       [
         {"title": "C/C++ (Inbyggda system)"},
         {"subtitle": "Kunnighet"},
-        {"progressbar": 70},
+        {"progressbar": 20},
         {"subtitle": "Detaljer"},
-        {"text": "ARM Cortex-m3"}
+        {"text": "Kursen Datorteknik (7.5 hp) studerade vi processorn ARM Cortex-M3. I kursen ingick också att tolka tillhörande datablad."}
       ],
 
       [
@@ -272,7 +241,7 @@ const resume = () => {
         {"subtitle": "Kunnighet"},
         {"progressbar": 70},
         {"subtitle": "Detaljer"},
-        {"text": null}
+        {"text": "Headless installation och navigering via SSH med Linuxbaserade är inga problem för mig. Kan använda I/O-portarna, konfigurera servrar, styra 3D-skrivaren och massa annat."}
       ],
 
       [
@@ -280,63 +249,7 @@ const resume = () => {
         {"subtitle": "Kunnighet"},
         {"progressbar": 80},
         {"subtitle": "Detaljer"},
-        {"text": null}
-      ],
-
-      [
-        {"title": "Penetration testing"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 20},
-        {"subtitle": "Detaljer"},
-        {"text": null}
-      ],
-
-      [
-        {"title": "ReactJS"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 60},
-        {"subtitle": "Detaljer"},
-        {"text": "Redux"}
-      ],
-
-      [
-        {"title": "Firebase"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 30},
-        {"subtitle": "Detaljer"},
-        {"text": null}
-      ],
-
-      [
-        {"title": "Webpack"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 20},
-        {"subtitle": "Detaljer"},
-        {"text": null}
-      ],
-
-      [
-        {"title": "NodeJS"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 30},
-        {"subtitle": "Detaljer"},
-        {"text": null}
-      ],
-
-      [
-        {"title": "HTML"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 40},
-        {"subtitle": "Detaljer"},
-        {"text": null}
-      ],
-
-      [
-        {"title": "CSS"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 30},
-        {"subtitle": "Detaljer"},
-        {"text": null}
+        {"text": "Denna hemsidan (www.stefangeneralao.fyi) körs på min stationära dator som använder Debian. I terminalen är jag bekväm och jag har bra översikt över UNIX-system."}
       ],
 
       [
@@ -344,7 +257,7 @@ const resume = () => {
         {"subtitle": "Kunnighet"},
         {"progressbar": 70},
         {"subtitle": "Detaljer"},
-        {"text": null}
+        {"text": "Fotografering med tillhörande efterbehandling i Photoshop är ett intresse som ligger nära hjärtat."}
       ],
 
       [
@@ -352,15 +265,7 @@ const resume = () => {
         {"subtitle": "Kunnighet"},
         {"progressbar": 100},
         {"subtitle": "Detaljer"},
-        {"text": "Kunskap om möjligheter, begränsningar och tekniker med 3d-printing."}
-      ],
-
-      [
-        {"title": "CAD"},
-        {"subtitle": "Kunnighet"},
-        {"progressbar": 50},
-        {"subtitle": "Detaljer"},
-        {"text": "Solidworkds, Autocad Inventor, OnShape"}
+        {"text": "Mycket bra kunskap om möjligheter, begränsningar och tekniker med 3d-printing."}
       ],
 
       [
@@ -369,28 +274,86 @@ const resume = () => {
         {"progressbar": 90},
         {"subtitle": "Detaljer"},
         {"text": "Styrprogram för 3D-skrivare."}
+      ],
+
+      [
+        {"title": "CAD"},
+        {"subtitle": "Kunnighet"},
+        {"progressbar": 50},
+        {"subtitle": "Detaljer"},
+        {"text": "Föredrar webbapplikationen OnShape men har även erfarenhet i Solidworks och AutoCAD Inventor."}
+      ],
+    ],
+
+    "Arbetslivserfarenhet": [
+      [
+        {"subtitle": "Sammanfattning"},
+        {"text": "Åtskilliga timmar i servicebranchen varav mitt första jobb i mina föräldrars restaurang gav mig ett utmärkt helhetsperspektiv av livet som entreprenör och värdet av bra lagarbete."}
+      ],
+
+      [
+        {"title": "XTZ AB"},
+
+        {"subtitle": "Position"},
+        {"text": "Tekniker"},
+
+        {"subtitle": "Plats"},
+        {"text": "Halmstad"},
+
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
+      ],
+
+      [
+        {"title": "Cherry Casino AB"},
+        {"subtitle": "Position"},
+        {"text": "Croupier"},
+
+        {"subtitle": "Plats"},
+        {"text": "Malmö, Lund"},
+
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
+      ],
+
+      [
+        {"title": "Espresso House AB"},
+        {"subtitle": "Position"},
+        {"text": "Barista"},
+
+        {"subtitle": "Plats"},
+        {"text": "Malmö, Ystad, Trelleborg, Lund"},
+
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
+      ],
+
+      [
+        {"title": "Mossbystrands kiosk"},
+        {"subtitle": "Position"},
+        {"text": "Arbetsledare, kassabiträde, kallskänka"},
+
+        {"subtitle": "Plats"},
+        {"text": "Mossby"},
+
+        {"subtitle": "Period"},
+        {"text": "xx-xx-xx till xx-xx-xx"}
       ]
     ],
 
     "Github-projekt": [
       [
-        {"subtitle": "Sammanfattning"},
-        {"text": ""},
-        {"link": "www.github.com/stefangeneralao"}
-      ],
-
-      [
         {"title": "Genetic-path-finder"},
-        {"subtitle": "Description"},
-        {"text": ""},
-        {"link": "www.github.com"},
+        {"subtitle": "Detaljer om projektet"},
+        {"text": "Min första genetiska algoritm. Programmet visualiserar en genetisk algoritm för att hitta den snabbaste vägen från punkt A till punkt B."},
+        {"link": "https://github.com/stefangeneralao/genetic-path-finder"},
       ],
 
       [
         {"title": "Hello-material-ui"},
-        {"subtitle": "Description"},
-        {"text": ""},
-        {"link": "www.github.com"},
+        {"subtitle": "Detaljer om projektet"},
+        {"text": "Projektet create-react-app frambringar grunden till detta projektet, skillnaden är att biblioteket Material-UI med typsnittet Roboto redan är implementerat. Projektet utvecklades för eget bruk."},
+        {"link": "https://github.com/stefangeneralao/hello-material-ui"},
       ]
     ],
 
@@ -417,12 +380,13 @@ const resume = () => {
     "Intressen": [
       [
         {"subtitle": "Ny teknik"},
-        {"subtitle": "Deep neural networks"},
+        {"subtitle": "Artificiell intelligens"},
         {"subtitle": "Genetiska algoritmer"},
         {"subtitle": "Cykling och gym"},
-        {"subtitle": "Socialpsykologi"},
+        {"subtitle": "Gruppdynamik och socialpsykologi"},
         {"subtitle": "Natur och evolution"},
-        {"subtitle": "Entreprenörsskap"}
+        {"subtitle": "Entreprenörsskap"},
+        {"subtitle": "Hållbar utveckling"},
       ]
     ]
   }
