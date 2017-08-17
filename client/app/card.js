@@ -56,13 +56,14 @@ const parseContent = (contentArray) => {
         console.warn("Command \"link\" not ready")
         return (
           <div key={index}>
-            link:{lineValue}
+            <a href={lineValue}>
+              <CardText>{lineValue}</CardText>
+            </a>
           </div>
         )
 
       default:
-        console.warn("Unknown lineCommand: " + lineCommand)
-        return (<div key={index}/>)
+        console.warn("Unknown lineCommand: " + lineCommand)return (<div key={index}/>)
     }
   })
 
