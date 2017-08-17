@@ -377,18 +377,18 @@ const resume = () => {
       ]
     ],
 
-    "Intressen": [
-      [
-        {"subtitle": "Ny teknik"},
-        {"subtitle": "Artificiell intelligens"},
-        {"subtitle": "Genetiska algoritmer"},
-        {"subtitle": "Cykling och gym"},
-        {"subtitle": "Gruppdynamik och socialpsykologi"},
-        {"subtitle": "Natur och evolution"},
-        {"subtitle": "Entreprenörsskap"},
-        {"subtitle": "Hållbar utveckling"},
-      ]
-    ]
+    // "Intressen": [
+    //   [
+    //     {"subtitle": "Ny teknik"},
+    //     {"subtitle": "Artificiell intelligens"},
+    //     {"subtitle": "Genetiska algoritmer"},
+    //     {"subtitle": "Cykling och gym"},
+    //     {"subtitle": "Gruppdynamik och socialpsykologi"},
+    //     {"subtitle": "Natur och evolution"},
+    //     {"subtitle": "Entreprenörsskap"},
+    //     {"subtitle": "Hållbar utveckling"},
+    //   ]
+    // ]
   }
 }
 
