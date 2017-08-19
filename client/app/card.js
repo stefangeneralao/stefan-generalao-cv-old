@@ -53,7 +53,6 @@ const parseContent = (contentArray) => {
         )
 
       case "link":
-        console.warn("Command \"link\" not ready")
         return (
           <div key={index}>
             <a href={lineValue}>
@@ -63,7 +62,8 @@ const parseContent = (contentArray) => {
         )
 
       default:
-        console.warn("Unknown lineCommand: " + lineCommand)return (<div key={index}/>)
+        console.warn("Unknown lineCommand: " + lineCommand)
+	return (<div key={index}/>)
     }
   })
 
