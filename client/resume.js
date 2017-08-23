@@ -7,32 +7,40 @@ const resume = () => {
 				},
 
 				"Skickligheter": {
-					id: "Skickligheter",
-					subSections: ["Maskininlärning", "Webbteknologier"]
-				}
-			},
-			allIds: ["Intro", "Skickligheter"]
-		},
+					id: "Skickligheter"
+				},
 
-		subSections: {
-			byId: {
 				"Maskininlärning": {
 					id: "Maskininlärning",
-					section: "Skickligheter"
+					parentSection: "Skickligheter"
 				},
 
 				"Webbteknologier": {
 					id: "Webbteknologier",
-					section: "Skickligheter"
+					parentSection: "Skickligheter"
 				}
 			},
-			allIds: ["Maskininlärning", "Webbteknologier"]
-		}
+			allIds: ["Intro", "Skickligheter", "Maskininlärning", "Webbteknologier"]
+		},
+
+    selectedSection: {
+      id: "Intro"
+    },
 
 		cards: {
 			byId: {
-				"React": {
-					id: "React",
+        "Intro-Sammanfattning": {
+          id: "Intro-Sammanfattning",
+          section: "Webbteknologier",
+          content: [
+            {title: "Stefan Generalao"},
+            {subtitle: "Om mig"},
+            {text: "BAbabababababab"}
+          ]
+        },
+
+				"Skickligheter-React": {
+					id: "Skickligheter-React",
 					section: "Webbteknologier",
 					content: [
 						{title: "React"},
@@ -43,8 +51,8 @@ const resume = () => {
 					]
 				},
 
-				"JavaScript": {
-					id: "JavaScript",
+				"Skickligheter-JavaScript": {
+					id: "Skickligheter-JavaScript",
 					section: "Webbteknologier",
 					content: [
 		        {title: "JavaScript"},
@@ -55,8 +63,8 @@ const resume = () => {
 					]
 				},
 
-				"TensorFlow": {
-					id: "TensorFlow",
+				"Skickligheter-TensorFlow": {
+					id: "Skickligheter-TensorFlow",
 					section: "Maskininlärning",
 					content: [
 		        {title: "TensorFlow"},
@@ -67,7 +75,7 @@ const resume = () => {
 					]
 				}
 			},
-			allIds: ["React", "JavaScript", "TensorFlow"]
+			allIds: ["Intro-Sammanfattning", "Skickligheter-React", "Skickligheter-JavaScript", "Skickligheter-TensorFlow"]
 		}
 	}
 }
