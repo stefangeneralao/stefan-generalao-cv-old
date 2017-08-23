@@ -20,15 +20,18 @@ class Drawer extends Component {
   }
 
   createMenuList() {
-    const list = Object.keys(resume).map((section) => {
-      return (
-        <DrawerMenuItem
-          label={section}
-          onTouchTap={() => this.menuItemClickHandler(section)}
-          key={section}
-        />
-      )
+    const list = resume.sections.allIds.map((section) => {
+        return (
+          <DrawerMenuItem
+            label={section}
+            onTouchTap={() => this.menuItemClickHandler(section)}
+            key={section}
+          />
+        )
     })
+
+    // const list = resume.sections.allIds.map((section) => {
+    // })
 
     return list
   }
