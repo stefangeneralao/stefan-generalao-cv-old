@@ -24,14 +24,14 @@ const resume = () => {
 		},
 
     selectedSection: {
-      id: "Intro"
+      id: "Webbteknologier"
     },
 
 		cards: {
 			byId: {
         "Intro-Sammanfattning": {
           id: "Intro-Sammanfattning",
-          section: "Webbteknologier",
+          section: "Intro",
           content: [
             {title: "Stefan Generalao"},
             {subtitle: "Om mig"},

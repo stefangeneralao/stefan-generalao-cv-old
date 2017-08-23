@@ -48,6 +48,8 @@ class App extends Component {
     if (window.innerWidth > 735) {
       return (
         <div>
+          <Drawer open={true} selectSection={this.selectSection} width={"30%"}/>
+
           <AppBar openDrawer={this.openDrawer} selectedSection={this.state.selectedSection} style={{
             paddingLeft: "30%",
             position: "fixed",
@@ -56,8 +58,6 @@ class App extends Component {
             paddingLeft: "25px",
             fontSize: 18
           }} showMenuIconButton={false}/>
-
-          <Drawer open={true} selectSection={this.selectSection} width={"30%"}/>
 
           <Body style={{
             paddingLeft: "30%",
@@ -70,6 +70,8 @@ class App extends Component {
     } else {
       return (
         <div>
+          <Drawer closeDrawer={this.closeDrawer} open={this.state.drawerOpen} selectSection={this.selectSection} docked={false}/>
+
           <AppBar openDrawer={this.openDrawer} selectedSection={this.state.selectedSection} style={{
             position: "fixed",
             top: 0
@@ -77,8 +79,6 @@ class App extends Component {
             fontSize: 18
           }}
           />
-
-          <Drawer closeDrawer={this.closeDrawer} open={this.state.drawerOpen} selectSection={this.selectSection} docked={false}/>
 
           <Body style={{
             paddingTop: "60px"

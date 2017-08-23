@@ -16,14 +16,18 @@ class Body extends Component {
     if (!this.hasSelectedItem())
       return null
 
-      // Selected section, e.g. "Intro", "Skills", "Experience".
-    const selectedSection = resume[this.props.selectedSection]
+    // Filter out cards according to selected section.
+    const filteredCards = []
+    resume.cards.allIds.forEach((cardKey) => {
+      const focusCard = resume.cards.byId[cardKey]
+      if(focusCard.section === resume.selectedSection.id) {
+        filteredCards.push(focusCard)
+      }
+    })
 
-    // Array of cards with content.
-    const cards = selectedSection.map((cardContent, i) => {
-      const key = this.props.selectedSection + i
-
-      return (<Card key={key} content={cardContent}/>)
+    // Parse filteredCards into array of cards.
+    const cards = filteredCards.map((rawCard) => {
+      return (<Card key={rawCard.id} content={rawCard.content} />)
     })
 
     return cards
