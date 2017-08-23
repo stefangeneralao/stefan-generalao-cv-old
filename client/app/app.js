@@ -40,7 +40,8 @@ class App extends Component {
   }
 
   selectSection(item) {
-    this.setState({selectedSection: item})
+    resume.selectedSection.id = item
+    this.forceUpdate()
   }
 
   render() {
@@ -50,7 +51,7 @@ class App extends Component {
         <div>
           <Drawer open={true} selectSection={this.selectSection} width={"30%"}/>
 
-          <AppBar openDrawer={this.openDrawer} selectedSection={this.state.selectedSection} style={{
+          <AppBar openDrawer={this.openDrawer} selectedSection={resume.selectedSection.id} style={{
             paddingLeft: "30%",
             position: "fixed",
             top: 0
@@ -62,7 +63,7 @@ class App extends Component {
           <Body style={{
             paddingLeft: "30%",
             paddingTop: "60px"
-          }} selectedSection={this.state.selectedSection}/>
+          }} selectedSection={resume.selectedSection.id}/>
         </div>
       )
 
@@ -72,7 +73,7 @@ class App extends Component {
         <div>
           <Drawer closeDrawer={this.closeDrawer} open={this.state.drawerOpen} selectSection={this.selectSection} docked={false}/>
 
-          <AppBar openDrawer={this.openDrawer} selectedSection={this.state.selectedSection} style={{
+          <AppBar openDrawer={this.openDrawer} selectedSection={resume.selectedSection.id} style={{
             position: "fixed",
             top: 0
           }} titleStyle={{
@@ -82,7 +83,7 @@ class App extends Component {
 
           <Body style={{
             paddingTop: "60px"
-          }} selectedSection={this.state.selectedSection}/>
+          }} selectedSection={resume.selectedSection.id}/>
         </div>
       )
     }
