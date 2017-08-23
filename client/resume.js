@@ -6,12 +6,36 @@ const resume = () => {
 					id: "Intro"
 				},
 
+				"Avslutade högskolekurser": {
+					id: "Avslutade högskolekurser"
+				},
+
 				"Skickligheter": {
 					id: "Skickligheter",
           subSections: ["Maskininlärning", "Webbteknologier"]
+				},
+
+				"Arbetslivserfarenhet": {
+					id: "Arbetslivserfarenhet"
+				},
+
+				"Github-projekt": {
+					id: "Github-projekt"
+				},
+
+				"Språk": {
+					id: "Språk"
 				}
 			},
-			allIds: ["Intro", "Skickligheter"]
+
+			allIds: [
+				"Intro",
+				"Avslutade högskolekurser",
+				"Skickligheter",
+				"Arbetslivserfarenhet",
+				"Github-projekt",
+				"Språk"
+			]
 		},
 
     subSections: {
