@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import MuiDrawer from 'material-ui/Drawer'
-import MenuItem from 'material-ui/MenuItem'
+import {ListItem} from 'material-ui/List'
 import Paper from 'material-ui/Paper'
 import DrawerMenuItem from './drawerMenuItem'
 
@@ -20,18 +20,40 @@ class Drawer extends Component {
   }
 
   createMenuList() {
-    const list = resume.sections.allIds.map((section) => {
-        return (
-          <DrawerMenuItem
-            label={section}
-            onTouchTap={() => this.menuItemClickHandler(section)}
-            key={section}
-          />
-        )
-    })
+    const getSubSections = (sectionKey) => {
+      const subSectionsArray = []
 
-    // const list = resume.sections.allIds.map((section) => {
-    // })
+      resume.subSections.allIds.forEach((subSectionKey) => {
+        if(resume.subSections.byId[subSectionKey].parentSection === sectionKey) {
+          subSectionsArray.push(
+            <DrawerMenuItem
+              key={subSectionKey}
+              label={subSectionKey}
+              onTouchTap={() => this.menuItemClickHandler(
+                  resume.subSections.byId[subSectionKey]
+              )}
+              subSection={true}
+            />
+          )
+        }
+      })
+
+      return subSectionsArray
+    }
+
+    const list = resume.sections.allIds.map((sectionKey) => {
+      const section = resume.sections.byId[sectionKey]
+      const nestedItems = getSubSections(sectionKey)
+
+      return (
+        <DrawerMenuItem
+          key={section.id}
+          label={section.id}
+          onTouchTap={() => this.menuItemClickHandler(section)}
+          nestedItems={nestedItems}
+        />
+      )
+    })
 
     return list
   }

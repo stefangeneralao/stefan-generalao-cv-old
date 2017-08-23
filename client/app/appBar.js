@@ -7,7 +7,7 @@ class AppBar extends Component {
       <MuiAppBar
         onLeftIconButtonTouchTap={this.props.openDrawer}
         onTitleTouchTap={this.props.openDrawer}
-        title={this.props.selectedSection}
+        title={resume.selectedSection.id}
         titleStyle={this.props.titleStyle}
         style={this.props.style}
         showMenuIconButton={this.props.showMenuIconButton}

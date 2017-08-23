@@ -15,13 +15,38 @@ class DrawerMenuItem extends Component {
   }
 
   render() {
-    return (
-      <ListItem onTouchTap={this.props.onTouchTap} style={{
-        "background": this.state.backgroundColor
-      }}>
-        <span style={{fontSize: "12px", fontWeight: "bold"}}>{this.props.label}</span>
-      </ListItem>
-    )
+    const nestedItems = this.props.nestedItems
+
+    if(this.props.subSection) {
+      return (
+        <ListItem
+          onTouchTap={this.props.onTouchTap}
+          style={{
+            background: this.state.backgroundColor,
+            paddingLeft: "25px"
+          }}
+          nestedItems={nestedItems}
+        >
+          <span style={{fontSize: "12px", fontWeight: "bold"}}>
+            {this.props.label}
+          </span>
+        </ListItem>
+      )
+    }else{
+      return (
+        <ListItem
+          onTouchTap={this.props.onTouchTap}
+          style={{
+            background: this.state.backgroundColor
+          }}
+          nestedItems={nestedItems}
+        >
+          <span style={{fontSize: "12px", fontWeight: "bold"}}>
+            {this.props.label}
+          </span>
+        </ListItem>
+      )
+    }
   }
 }
 

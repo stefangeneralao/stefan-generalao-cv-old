@@ -7,21 +7,27 @@ const resume = () => {
 				},
 
 				"Skickligheter": {
-					id: "Skickligheter"
-				},
-
-				"Maskininlärning": {
-					id: "Maskininlärning",
-					parentSection: "Skickligheter"
-				},
-
-				"Webbteknologier": {
-					id: "Webbteknologier",
-					parentSection: "Skickligheter"
+					id: "Skickligheter",
+          subSections: ["Maskininlärning", "Webbteknologier"]
 				}
 			},
-			allIds: ["Intro", "Skickligheter", "Maskininlärning", "Webbteknologier"]
+			allIds: ["Intro", "Skickligheter"]
 		},
+
+    subSections: {
+      byId: {
+        "Maskininlärning": {
+          id: "Maskininlärning",
+          parentSection: "Skickligheter"
+        },
+
+        "Webbteknologier": {
+          id: "Webbteknologier",
+          parentSection: "Skickligheter"
+        }
+      },
+      allIds: ["Maskininlärning", "Webbteknologier"]
+    },
 
     selectedSection: {
       id: "Webbteknologier"

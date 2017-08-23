@@ -40,7 +40,7 @@ class App extends Component {
   }
 
   selectSection(item) {
-    resume.selectedSection.id = item
+    resume.selectedSection.id = item.id
     this.forceUpdate()
   }
 
