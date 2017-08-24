@@ -27,6 +27,10 @@ class App extends Component {
     window.removeEventListener('resize', this.handleResize)
   }
 
+  componentDidUpdate() {
+    window.scrollTo(0, 0)
+  }
+
   handleResize() {
     this.forceUpdate()
   }
