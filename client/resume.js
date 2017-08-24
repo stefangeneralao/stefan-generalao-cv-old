@@ -73,7 +73,7 @@ const resume = () => {
           id: "Intro Sammanfattning",
           section: "Intro",
           content: [
-		        {"title": "Stefan Generalao - For your information"},
+		        {"title": "Stefan Generalao"},
 		        {"subtitle": "Om mig"},
 		        {"text": "Student på Informationsarkitektprogrammet i Malmö men stora delar av programmets kurser har jag redan koll på och kommer därmed ha mycket tid över till annat. För titelns skull vill jag avsluta utbildningen och jag har inget emot många bollar i luften."},
 		        {"text": "Avslutat högskolekurser huvudsakligen inom inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
