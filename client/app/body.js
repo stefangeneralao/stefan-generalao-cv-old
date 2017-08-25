@@ -11,33 +11,33 @@ class Body extends Component {
     return this.props.selectedSection != null
   }
 
-  // Function returning an array of cards with content.
-  createCards() {
+  // Function returning an array of content with content.
+  createContent() {
     // Return null if selectedSection is null.
     if (!this.hasSelectedItem())
       return null
 
-    // Filter out cards according to selected section.
-    const filteredCards = []
-    resume.cards.allIds.forEach((cardKey) => {
-      const focusCard = resume.cards.byId[cardKey]
-      if(focusCard.section === resume.selectedSection.id) {
-        filteredCards.push(focusCard)
+    // Filter out content according to selected section.
+    const filteredContent = []
+    store.content.allIds.forEach((cardKey) => {
+      const focusCard = store.content.byId[cardKey]
+      if(focusCard.section === store.selectedSection.id) {
+        filteredContent.push(focusCard)
       }
     })
 
-    // Parse filteredCards into array of cards.
-    const cards = filteredCards.map((rawCard) => {
+    // Parse filteredContent into array of content.
+    const content = filteredContent.map((rawCard) => {
       return (<Card key={rawCard.id} content={rawCard.content} />)
     })
 
-    return cards
+    return content
   }
 
   render() {
     return (
       <div style={this.props.style}>
-        {this.createCards()}
+        {this.createContent()}
         <Footer />
       </div>
     )

@@ -26,14 +26,14 @@ class Drawer extends Component {
     const getSubSections = (sectionKey) => {
       const subSectionsArray = []
 
-      resume.subSections.allIds.forEach((subSectionKey) => {
-        if(resume.subSections.byId[subSectionKey].parentSection === sectionKey) {
+      store.subSections.allIds.forEach((subSectionKey) => {
+        if(store.subSections.byId[subSectionKey].parentSection === sectionKey) {
           subSectionsArray.push(
             <DrawerMenuItem
               key={subSectionKey}
               label={subSectionKey}
               onTouchTap={() => this.menuItemClickHandler(
-                  resume.subSections.byId[subSectionKey]
+                  store.subSections.byId[subSectionKey]
               )}
               subSection={true}
             />
@@ -44,8 +44,8 @@ class Drawer extends Component {
       return subSectionsArray
     }
 
-    const list = resume.sections.allIds.map((sectionKey) => {
-      const section = resume.sections.byId[sectionKey]
+    const list = store.sections.allIds.map((sectionKey) => {
+      const section = store.sections.byId[sectionKey]
       const nestedItems = getSubSections(sectionKey)
 
       return (

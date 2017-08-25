@@ -77,7 +77,7 @@ const resume = () => {
       id: "Intro"
     },
 
-		cards: {
+		content: {
 			byId: {
         "Intro Sammanfattning": {
           id: "Intro Sammanfattning",
@@ -88,7 +88,7 @@ const resume = () => {
 		        {"text": "Student på Informationsarkitektprogrammet i Malmö men delar av programmets kurser har jag redan koll på och kommer därmed ha tid över till annat. För titelns skull vill jag avsluta utbildningen och jag har inget emot många bollar i luften."},
 		        {"text": "Avslutat högskolekurser huvudsakligen inom inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
 		        {"text": "Nyfiken och gillar att lära mig nya saker. Min samarbetsvilja är hög och har lätt för att ta order men är även ansvarsfull i soloprojekt."},
-		        {"text": "Fritiden spenderas på studier om olika fält inom maskininlärning samt webbteknologier exempelvis React. Nya teknologier är vad jag brinner för!"},
+		        {"text": "Fritiden spenderas på studier av olika fält inom maskininlärning samt webbteknologier exempelvis React. Nya teknologier är vad jag brinner för!"},
 
 		        {"subtitle": "Om denna webbapplikationen"},
 		        {"text": "Projektet är skrivet från grunden av mig. Förutom hjälp av React och Material-UI har jag inte använt några templates. Servern körs på en maskin med Debian som använder Webpack med hot-reload."},
