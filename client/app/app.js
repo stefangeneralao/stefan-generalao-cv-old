@@ -46,9 +46,6 @@ class App extends Component {
   }
 
   render() {
-    // Scroll window to top.
-    window.scrollTo(0, 0)
-
     // Render for desktop
     if (window.innerWidth > 735) {
       return (
@@ -66,7 +63,7 @@ class App extends Component {
 
           <Body style={{
             paddingLeft: "30%",
-            paddingTop: "50px"
+            paddingTop: "70px"
           }} selectedSection={resume.selectedSection.id}/>
         </div>
       )
@@ -86,7 +83,7 @@ class App extends Component {
           />
 
           <Body style={{
-            paddingTop: "50px"
+            paddingTop: "70px"
           }} selectedSection={resume.selectedSection.id}/>
         </div>
       )
