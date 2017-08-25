@@ -543,7 +543,7 @@ const resume = () => {
 					content: [
 		        {"title": "Genetic-Path-Finder"},
 		        {"subtitle": "Detaljer om projektet"},
-		        {"text": "Min första genetiska algoritm. Programmet visualiserar en genetisk algoritm för att hitta den snabbaste vägen från punkt A till punkt B."},
+		        {"text": "Genetisk algoritm för att hitta den snabbaste vägen från punkt A till punkt B. Algoritmen måste ta hänsyn till accelaration samt att alla hinder alltid ändras. För att uppnå samma mål med en \"traditionell\" algoritm skulle det kräva mycket processorkraft och avancerade matematiska modeller. I detta problemet är genetiska algoritmer ett lämpligt alternativ."},
 		        {"link": "https://github.com/stefangeneralao/genetic-path-finder"},
 		      ]
 				},
@@ -565,7 +565,7 @@ const resume = () => {
 					content: [
 		        {"title": "Digital-Stargazing"},
 		        {"subtitle": "Detaljer om projektet"},
-		        {"text": "Projektet var en del av ett projekt i samarbete med en konstnär och är endast en fröjd för ögat."},
+		        {"text": "Digital Stargazing en del av ett projekt i samarbete med en konstnär."},
 		        {"link": "https://github.com/stefangeneralao/digital-stargazing"},
 		      ]
 				},
