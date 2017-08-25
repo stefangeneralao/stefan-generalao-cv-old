@@ -3,6 +3,7 @@ import FlatButton from 'material-ui/FlatButton'
 import Divider from 'material-ui/Divider'
 import LinearProgress from 'material-ui/LinearProgress'
 import Card from './card'
+import Footer from './footer'
 
 class Body extends Component {
   // Return false if this.props.selectedSection is null.
@@ -37,6 +38,7 @@ class Body extends Component {
     return (
       <div style={this.props.style}>
         {this.createCards()}
+        <Footer />
       </div>
     )
   }
