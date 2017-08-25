@@ -235,7 +235,7 @@ const resume = () => {
 					content: [
 		        {"title": "Synapse.js"},
 		        {"subtitle": "Kunnighet"},
-		        {"progressbar": 60},
+		        {"progressbar": 40},
 		        {"subtitle": "Detaljer"},
 		        {"text": "JavaScript-bibliotek för att bygga, träna och aktivera neuronnät."}
 		      ]
@@ -261,7 +261,7 @@ const resume = () => {
 		        {"subtitle": "Kunnighet"},
 		        {"progressbar": 10},
 		        {"subtitle": "Detaljer"},
-		        {"text": "I Googles open source-projekt TensorFlow har jag, tillsammans med Python, gjort neuronnätverkets motsvarighet till Hello World."}
+		        {"text": "I Googles open source-projekt TensorFlow har jag, i Python, gjort neuronnätverkets motsvarighet till Hello World."}
 		      ]
 				},
 
@@ -541,7 +541,7 @@ const resume = () => {
 					id: "Github projekt Genetic-Path-Finder",
 					section: "Github-projekt",
 					content: [
-		        {"title": "Genetic-path-finder"},
+		        {"title": "Genetic-Path-Finder"},
 		        {"subtitle": "Detaljer om projektet"},
 		        {"text": "Min första genetiska algoritm. Programmet visualiserar en genetisk algoritm för att hitta den snabbaste vägen från punkt A till punkt B."},
 		        {"link": "https://github.com/stefangeneralao/genetic-path-finder"},
@@ -552,7 +552,7 @@ const resume = () => {
 					id: "Github projekt Hello-Material-UI",
 					section: "Github-projekt",
 					content: [
-		        {"title": "Hello-material-ui"},
+		        {"title": "Hello-Material-UI"},
 		        {"subtitle": "Detaljer om projektet"},
 		        {"text": "Projektet create-react-app frambringar grunden till detta projektet, skillnaden är att biblioteket Material-UI med typsnittet Roboto redan är implementerat. Projektet utvecklades för eget bruk."},
 		        {"link": "https://github.com/stefangeneralao/hello-material-ui"},
