@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import AppBar from './appBar'
 import Drawer from './drawer'
 import Body from './body'
+import Footer from './footer'
 
 class App extends Component {
   constructor() {
@@ -27,10 +28,6 @@ class App extends Component {
     window.removeEventListener('resize', this.handleResize)
   }
 
-  componentDidUpdate() {
-    window.scrollTo(0, 0)
-  }
-
   handleResize() {
     this.forceUpdate()
   }
@@ -49,6 +46,9 @@ class App extends Component {
   }
 
   render() {
+    // Scroll window to top.
+    window.scrollTo(0, 0)
+
     // Render for desktop
     if (window.innerWidth > 735) {
       return (
@@ -66,7 +66,7 @@ class App extends Component {
 
           <Body style={{
             paddingLeft: "30%",
-            paddingTop: "60px"
+            paddingTop: "50px"
           }} selectedSection={resume.selectedSection.id}/>
         </div>
       )
@@ -86,7 +86,7 @@ class App extends Component {
           />
 
           <Body style={{
-            paddingTop: "60px"
+            paddingTop: "50px"
           }} selectedSection={resume.selectedSection.id}/>
         </div>
       )
