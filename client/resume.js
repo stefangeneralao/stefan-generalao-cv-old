@@ -12,7 +12,7 @@ const resume = () => {
 
 				"Skickligheter": {
 					id: "Skickligheter",
-          subSections: ["Maskininlärning", "Webbteknologier", "Hårdvara"]
+          subSections: ["Maskininlärning", "Webbteknologier", "Hårdvara", "3D-printing och design", "Övrigt"]
 				},
 
 				"Arbetslivserfarenhet": {
@@ -58,9 +58,19 @@ const resume = () => {
 				"Hårdvara": {
 					id: "Hårdvara",
 					parentSection: "Skickligheter"
+				},
+
+				"3D-printing och design": {
+					id: "3D-printing och design",
+					parentSection: "Skickligheter"
+				},
+
+				"Övrigt": {
+					id: "Övrigt",
+					parentSection: "Skickligheter"
 				}
       },
-      allIds: ["Maskininlärning", "Webbteknologier", "Hårdvara"]
+      allIds: ["Maskininlärning", "Webbteknologier", "Hårdvara", "3D-printing och design", "Övrigt"]
     },
 
     selectedSection: {
@@ -75,10 +85,10 @@ const resume = () => {
           content: [
 		        {"title": "Stefan Generalao"},
 		        {"subtitle": "Om mig"},
-		        {"text": "Student på Informationsarkitektprogrammet i Malmö men stora delar av programmets kurser har jag redan koll på och kommer därmed ha mycket tid över till annat. För titelns skull vill jag avsluta utbildningen och jag har inget emot många bollar i luften."},
+		        {"text": "Student på Informationsarkitektprogrammet i Malmö men delar av programmets kurser har jag redan koll på och kommer därmed ha tid över till annat. För titelns skull vill jag avsluta utbildningen och jag har inget emot många bollar i luften."},
 		        {"text": "Avslutat högskolekurser huvudsakligen inom inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
 		        {"text": "Nyfiken och gillar att lära mig nya saker. Min samarbetsvilja är hög och har lätt för att ta order men är även ansvarsfull i soloprojekt."},
-		        {"text": "Fritiden spenderas på studier om maskininlärning, artificiell intelligens, genetiska algoritmer och React. Nya teknologier är vad jag brinner för!"},
+		        {"text": "Fritiden spenderas på studier om olika fält inom maskininlärning samt webbteknologier exempelvis React. Nya teknologier är vad jag brinner för!"},
 
 		        {"subtitle": "Om denna webbapplikationen"},
 		        {"text": "Projektet är skrivet från grunden av mig. Förutom hjälp av React och Material-UI har jag inte använt några templates. Servern körs på en maskin med Debian som använder Webpack med hot-reload."},
@@ -96,7 +106,7 @@ const resume = () => {
 					section: "Avslutade högskolekurser",
 					content: [
 		        {"subtitle": "Sammanfattning"},
-		        {"text": "Kurser på totalt 50,5 högskolepoäng. Många av kurserna är tagna från dataingenjörsprogrammet och omfattar en hel del inom inbyggda system."}
+		        {"text": "Kurser på totalt 50,5 högskolepoäng och omfattar stora delar inom inbyggda system."}
 		      ]
 				},
 
@@ -203,7 +213,7 @@ const resume = () => {
 					section: "Skickligheter",
 					content: [
 		        {"subtitle": "Sammanfattning"},
-		        {"text": "Mina skickligheter består av diverse programmerings-och skriptspråk, JavaScript-bibliotek med mera. Mycket tid har spenderats med Arduino och tillhörande hårdvara. Jag har även ett brinnande intresse för maskininlärning."}
+		        {"text": "Mina skickligheter består av diverse programmerings-och skriptspråk, JavaScript-bibliotek med mera. Mycket tid har spenderats med Arduino och tillhörande hårdvara. Jag har även intresse för maskininlärning."}
 		      ]
 				},
 
@@ -329,19 +339,19 @@ const resume = () => {
 
 				"Skickligheter Java": {
 					id: "Skickligheter Java",
-					section: "Skickligheter",
+					section: "Övrigt",
 					content: [
 		        {"title": "Java"},
 		        {"subtitle": "Kunnighet"},
 		        {"progressbar": 50},
 		        {"subtitle": "Detaljer"},
-		        {"text": "Totalt 22.5 högskolepoäng i kurser med programmering i Java. I kurserna byggde jag diverse datastrukturer, algoritmer och GUI."}
+		        {"text": "Totalt 22.5 högskolepoäng i kurser med programmering i Java. I kurserna byggde jag datastrukturer, algoritmer och GUI."}
 		      ]
 				},
 
 				"Skickligheter Python": {
 					id: "Skickligheter Python",
-					section: "Skickligheter",
+					section: "Övrigt",
 					content: [
 		        {"title": "Python"},
 		        {"subtitle": "Kunnighet"},
@@ -389,7 +399,7 @@ const resume = () => {
 
 				"Skickligheter UNIX -system, BASH etc": {
 					id: "Skickligheter UNIX -system, BASH etc",
-					section: "Skickligheter",
+					section: "Övrigt",
 					content: [
 		        {"title": "UNIX-system, BASH etc."},
 		        {"subtitle": "Kunnighet"},
@@ -401,7 +411,7 @@ const resume = () => {
 
 				"Skickligheter Adobe Photoshop": {
 					id: "Skickligheter Adobe Photoshop",
-					section: "Skickligheter",
+					section: "Övrigt",
 					content: [
 		        {"title": "Adobe Photoshop"},
 		        {"subtitle": "Kunnighet"},
@@ -413,7 +423,7 @@ const resume = () => {
 
 				"Skickligheter 3D-printing": {
 					id: "Skickligheter 3D-printing",
-					section: "Skickligheter",
+					section: "3D-printing och design",
 					content: [
 		        {"title": "3D-printing"},
 		        {"subtitle": "Kunnighet"},
@@ -425,7 +435,7 @@ const resume = () => {
 
 				"Skickligheter Simplify3D": {
 					id: "Skickligheter Simplify3D",
-					section: "Skickligheter",
+					section: "3D-printing och design",
 					content: [
 		        {"title": "Simplify3D"},
 		        {"subtitle": "Kunnighet"},
@@ -437,7 +447,7 @@ const resume = () => {
 
 				"Skickligheter CAD": {
 					id: "Skickligheter CAD",
-					section: "Skickligheter",
+					section: "3D-printing och design",
 					content: [
 		        {"title": "CAD"},
 		        {"subtitle": "Kunnighet"},
