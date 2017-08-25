@@ -76,7 +76,8 @@ class CustomCard extends Component {
       <Card style={{
         margin: "10px",
         paddingBottom: "20px"
-      }}>
+      }} zDepth={1}
+      >
         {parseContent(this.props.content)}
       </Card>
     )

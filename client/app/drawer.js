@@ -65,6 +65,7 @@ class Drawer extends Component {
         width={this.props.width}
         docked={this.props.docked}
         onRequestChange={() => {this.props.closeDrawer()}}
+        zDepth={3}
       >
         {this.createMenuList()}
       </MuiDrawer>

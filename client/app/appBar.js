@@ -11,7 +11,7 @@ class AppBar extends Component {
         titleStyle={this.props.titleStyle}
         style={this.props.style}
         showMenuIconButton={this.props.showMenuIconButton}
-        zDepth={0}
+        zDepth={2}
       />
     )
   }
