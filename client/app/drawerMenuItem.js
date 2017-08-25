@@ -26,6 +26,7 @@ class DrawerMenuItem extends Component {
             paddingLeft: "25px"
           }}
           nestedItems={nestedItems}
+          primaryTogglesNestedList={true}
         >
           <span style={{fontSize: "12px", fontWeight: "bold"}}>
             {this.props.label}
@@ -35,11 +36,12 @@ class DrawerMenuItem extends Component {
     }else{
       return (
         <ListItem
-          onTouchTap={this.props.onTouchTap}
+          onTouchTap={nestedItems.length ? null : this.props.onTouchTap}
           style={{
             background: this.state.backgroundColor
           }}
           nestedItems={nestedItems}
+          primaryTogglesNestedList={true}
         >
           <span style={{fontSize: "12px", fontWeight: "bold"}}>
             {this.props.label}

@@ -17,6 +17,9 @@ class Drawer extends Component {
     }
 
     this.props.selectSection(clickedItem)
+
+    // Scroll window to top.
+    window.scrollTo(0, 0)
   }
 
   createMenuList() {
@@ -66,6 +69,7 @@ class Drawer extends Component {
         docked={this.props.docked}
         onRequestChange={() => {this.props.closeDrawer()}}
         zDepth={3}
+        disableSwipeToOpen={true}
       >
         {this.createMenuList()}
       </MuiDrawer>
