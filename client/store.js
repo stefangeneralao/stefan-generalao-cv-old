@@ -85,14 +85,14 @@ const resume = () => {
           content: [
 		        {"title": "Stefan Generalao"},
 		        {"subtitle": "Om mig"},
-		        {"text": "Student på Informationsarkitektprogrammet i Malmö men delar av programmets kurser har jag redan koll på och kommer därmed ha tid över till annat. För titelns skull vill jag avsluta utbildningen och jag har inget emot många bollar i luften."},
-		        {"text": "Avslutat högskolekurser huvudsakligen inom inbyggda system och har många timmar i Arduino samt kringliggande hårdvaruprogrammering."},
-		        {"text": "Nyfiken och gillar att lära mig nya saker. Min samarbetsvilja är hög och har lätt för att ta order men är även ansvarsfull i soloprojekt."},
-		        {"text": "Fritiden spenderas på studier av olika fält inom maskininlärning samt webbteknologier exempelvis React. Nya teknologier är vad jag brinner för!"},
+		        {"text": "Student på Informationsarkitektprogrammet i Malmö. Jag har redan koll på flera av programmets kurser och kommer därmed ha tid över till en deltidsanställning hos Er. För titelns skull vill jag gärna avsluta utbildningen, och jag att ha många bollar i luften."},
+		        {"text": "Huvudsakligen har jag avslutat högskolekurser inom inbyggda system, och har över 500 timmar i Arduino samt kringliggande hårdvaruprogrammering."},
+		        {"text": "Jag vill påstå att mina främsta egenskaper är nyfikenhet och jag gillar att lära mig nya saker. Min förra chef beskrev mig som ansvarsfull i soloprojekt men föredrar att jobba i team."},
+		        {"text": "Fritiden spenderas på studier av olika fält inom maskininlärning samt webbteknologier exempelvis React. Nya teknologier är det jag brinner för!"},
 
 		        {"subtitle": "Om denna webbapplikationen"},
-		        {"text": "Projektet är skrivet från grunden av mig. Förutom hjälp av React och Material-UI har jag inte använt några templates. Servern körs på en maskin med Debian som använder Webpack med hot-reload."},
-		        {"text": "Vid problem, låt mig veta! Släng in en issue eller pull-request på Github."},
+		        {"text": "Detta projekt är skrivet från grunden av mig. Förutom hjälp av React och Material-UI har jag inte använt några templates. Servern körs på en maskin med Debian som använder Webpack med hot-reload."},
+						{"text": "Gå gärna in och kolla på min Github. Upptäcker ni buggar, andra problem eller har synpunkter? Skicka in en issue eller pull-request!"},
 
 		        {"subtitle": "Kontakta mig"},
 		        {"text": "stefan.generalao@gmail.com"},
