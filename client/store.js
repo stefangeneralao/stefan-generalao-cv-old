@@ -235,9 +235,9 @@ const resume = () => {
 					content: [
 		        {"title": "Synapse.js"},
 		        {"subtitle": "Kunnighet"},
-		        {"progressbar": 40},
+		        {"progressbar": 30},
 		        {"subtitle": "Detaljer"},
-		        {"text": "JavaScript-bibliotek för att bygga, träna och aktivera neuronnät."}
+		        {"text": "JavaScript-bibliotek för att bygga, träna och aktivera neuronnät. I biblioteket testade jag att göra en s.k. deep neural network för att tolka handskrivna siffror med MNIST-databasen."}
 		      ]
 				},
 
@@ -249,7 +249,7 @@ const resume = () => {
 		        {"subtitle": "Kunnighet"},
 		        {"progressbar": 10},
 		        {"subtitle": "Detaljer"},
-		        {"text": "JavaScript-bibliotek för att utveckla NEAT-neuronnät"}
+		        {"text": "JavaScript-bibliotek för att utveckla NEAT-neuronnät."}
 		      ]
 				},
 
@@ -297,7 +297,7 @@ const resume = () => {
 		        {"subtitle": "Kunnighet"},
 		        {"progressbar": 10},
 		        {"subtitle": "Detaljer"},
-		        {"text": "Använder npm för bibliotek i många av mina projekt. Har även lyckats att konfigurera servrar i NodeJS."}
+		        {"text": "Använder npm för bibliotek i många av mina projekt. Har även lyckats att konfigurera servrar i Node.js."}
 		      ]
 				},
 
@@ -381,7 +381,7 @@ const resume = () => {
 		        {"subtitle": "Kunnighet"},
 		        {"progressbar": 20},
 		        {"subtitle": "Detaljer"},
-		        {"text": "Kursen Datorteknik (7.5 hp) studerade vi processorn ARM Cortex-M3. I kursen ingick också att tolka tillhörande datablad."}
+		        {"text": "I kursen Datorteknik (7.5 hp) studerade vi processorn ARM Cortex-M3. Att tolka tillhörande datablad på cirka 1500 sidor var också ett krav för att klara av kursen."}
 		      ]
 				},
 
