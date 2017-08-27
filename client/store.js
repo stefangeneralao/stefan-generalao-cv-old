@@ -85,9 +85,9 @@ const resume = () => {
           content: [
 		        {"title": "Stefan Generalao"},
 		        {"subtitle": "Om mig"},
-		        {"text": "Student på Informationsarkitektprogrammet i Malmö. Jag har redan koll på flera av programmets kurser och kommer därmed ha tid över till en deltidsanställning hos Er. För titelns skull vill jag gärna avsluta utbildningen, och jag att ha många bollar i luften."},
+		        {"text": "Student på Informationsarkitektprogrammet i Malmö. Jag har redan koll på flera av programmets kurser och kommer därmed ha tid över till en deltidsanställning. För titelns skull vill jag gärna avsluta utbildningen, och jag gillar att ha många bollar i luften."},
 		        {"text": "Huvudsakligen har jag avslutat högskolekurser inom inbyggda system, och har över 500 timmar i Arduino samt kringliggande hårdvaruprogrammering."},
-		        {"text": "Jag vill påstå att mina främsta egenskaper är nyfikenhet och jag gillar att lära mig nya saker. Min förra chef beskrev mig som ansvarsfull i soloprojekt men föredrar att jobba i team."},
+		        {"text": "Jag vill påstå att mina främsta egenskaper är nyfikenhet och jag gillar att lära mig nya saker. Min förra chef beskrev mig som ansvarsfull i soloprojekt men jag föredrar att jobba i team."},
 		        {"text": "Fritiden spenderas på studier av olika fält inom maskininlärning samt webbteknologier exempelvis React. Nya teknologier är det jag brinner för!"},
 
 		        {"subtitle": "Om denna webbapplikationen"},
@@ -565,7 +565,7 @@ const resume = () => {
 					content: [
 		        {"title": "Digital-Stargazing"},
 		        {"subtitle": "Detaljer om projektet"},
-		        {"text": "Digital Stargazing en del av ett projekt i samarbete med en konstnär."},
+		        {"text": "Digital Stargazing var del av ett projekt i samarbete med en konstnär."},
 		        {"link": "https://github.com/stefangeneralao/digital-stargazing"},
 		      ]
 				},

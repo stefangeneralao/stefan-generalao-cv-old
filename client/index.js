@@ -42,5 +42,5 @@ ReactDOM.render(
 
 // Welcome message
 console.log('Välkommen kära utvecklare!')
-console.log('Om du hellre vill läsa mitt CV i JSON-format, skriv bara "store" i consolen. I det objektet hittar du hela applikationens lagring och state.')
+console.log('Om du hellre vill läsa mitt CV i JSON-format, skriv bara "store" i consolen. I objektet hittar du hela applikationens lagring och state.')
 console.log('Tack!')

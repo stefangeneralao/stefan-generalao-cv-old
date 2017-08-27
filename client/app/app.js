@@ -20,14 +20,18 @@ class App extends Component {
     this.handleResize = this.handleResize.bind(this)
   }
 
+
   componentDidMount() {
+    // Add listener for handling resize-event.
     window.addEventListener('resize', this.handleResize)
   }
 
   componentWillUnmount() {
+    // Remove listener for handling resize-event.
     window.removeEventListener('resize', this.handleResize)
   }
 
+  // Method for handling a resize.
   handleResize() {
     this.forceUpdate()
   }
