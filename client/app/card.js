@@ -3,6 +3,7 @@ import {Card, CardTitle, CardActions, CardText} from 'material-ui/Card'
 import Divider from 'material-ui/Divider'
 import LinearProgress from 'material-ui/LinearProgress'
 
+
 const parseContent = (contentArray) => {
   const content = contentArray.map((content, index) => {
     const lineCommand = Object.keys(content)[0]
@@ -56,7 +57,12 @@ const parseContent = (contentArray) => {
         return (
           <div key={index}>
             <a href={lineValue}>
-              <CardText>{lineValue}</CardText>
+              <CardText style={{
+                "paddingTop": "6px",
+                "paddingBottom": "6px"
+              }}>
+                {lineValue}
+              </CardText>
             </a>
           </div>
         )
